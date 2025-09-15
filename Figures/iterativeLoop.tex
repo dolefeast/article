@@ -1,0 +1,36 @@
+\begin{figure}[t]
+\begin{center}
+\begin{tikzpicture}[
+    scale=0.87,
+    box/.style = {draw, rectangle, minimum width=2cm, minimum height=1cm, fill={rgb:red,1;green,2;blue,2}, fill opacity=0.2, text opacity = 1},
+    arrow/.style = {->, thick, >=Stealth},
+    curved arrow/.style = {->, thick, >=Stealth, bend left}
+]
+% Nodes
+\node[box] (A0) at (0, 0) {$A_{\lambda}^{0}$};
+\node[box] (phi) at (3, 0) {$\omega_{n, \lambda}^\kappa, \phi_{n, \lambda}^\kappa$};
+\node[box] (rho) at (8.25, 3) {$\rho_\lambda^\kappa$};
+\node[box] (tildeA0) at (8.25, -3) {$A_\lambda^{\kappa}$};
+\node (kappa) at (6.5, 0) {$\kappa \to \infty$};
+
+% Arrows
+\draw[arrow] (A0) -- (phi);
+
+\draw[curved arrow, blue] (phi) to[out=50, in=135] (rho);
+\draw[curved arrow, blue] (rho) to[out=55, in=135] (tildeA0);
+\draw[curved arrow, blue] (tildeA0) to[out=45, in=130] (phi);
+
+  %\draw[arrow] (phi) to[out=70, in=150, looseness=1] (rho);
+
+
+% Central evolution arrow
+\draw[->, thick, dashed, red] (8, 0) arc[start angle=360, end angle=0, radius=1.5cm];
+%\draw[->, thick, dashed, red] (10, 0) arc[start angle=0, end angle=360, radius=3.5cm];
+
+\end{tikzpicture}
+\end{center}
+\caption{Schematic of the iterative procedure.}%
+\label{fig:iterative-procedure}
+\end{figure}
+
+

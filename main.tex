@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage[width = 16cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{braket}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\setcitestyle{numbers}
+\setcitestyle{square}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\newcommand{\marginnote}[1]{\textsuperscript{*}\marginpar{\fbox{\parbox{2cm}{\textcolor{blue}{#1}}}}}
+
+
+\title{Vacuum Polarization in 1+1 dimensions}
+\author{Authors}
+
+
+\begin{document}
+\makeatletter
+\maketitle
+
+\tableofcontents
+
+\input{Sections/methodology.tex}
+\input{Sections/Vacuum Polarization.tex}
+\input{Sections/results.tex}
+
+\appendix
+\input{Appendices/vacuum-polarization.tex}
+
+\bibliographystyle{abbrvnat}
+\bibliography{main}
+
+\end{document}

@@ -1,0 +1,37 @@
+\section{The iterative procedure}
+\label{sec:The-iterative-procedure}
+
+To consider the backreaction of the Klein-Gordon field, an iterative procedure is introduced. At each iteration $\kappa$, the following equations are solved
+\begin{subequations}
+   \label{eq:iterative-procedure}
+\begin{align}
+    \left[ (\omega_{n, \lambda}^\kappa - \varepsilon A^{\kappa +1 }_0(z) )^2 +
+    \frac{d {^2}}{d {z^2}} {} - a^2 m^2\right] \phi_{n, \lambda}^{\kappa} = 0, 
+    \label{eq:mode-equation-iterative}
+    \\
+        A^{\kappa +1}_\lambda(z) = c A_\lambda^{\kappa} + \left(1-c
+        \right)\left[ -\lambda\left(z - \frac{1}{2} \right) -
+        \int_{\frac{1}{2}}^{z} \int_{0}^{z'} \rho_\lambda^\kappa(z'') d z'' d
+    z' \right].
+        \label{eq:A0-general-iterative}
+\end{align}
+\end{subequations}
+Here, $c\in [0, 1]$ is introduced in order to ``relax" the procedure: For
+$c=0$, the procedure is precisely the one used in~\cite[]{Ambjorn:1981xv}. For
+$c$ close to 1, updates will only be corrections to the previous potential.
+This avoids certain numerical instabilities as $\lambda   > \lambda_c$.
+%The mode subindices have been removed to avoid notation clutter.
+The iterative procedure is schematized in Fig.~\ref{fig:iterative-procedure},
+and it studies $\lim_{\kappa \to \infty} A_\lambda^\kappa $ for each $\lambda$.
+If the limit exists, it defines the self-consistent potential
+$A^{\infty}_\lambda$. Additionally, every other relevant quantity
+$\rho^\infty_\lambda, \omega_\lambda^{\infty}, \text{ and } \phi_\lambda
+^{\infty}$ also acquire the adjective ``self-consistent".
+
+\input{Figures/iterativeLoop.tex}
+
+For a low $\lambda\ll \lambda_c$, the initial potential $A_\lambda^{0} = -\lambda
+\left(z-\frac{1}{2}\right)$ is given by the external field approximation. For
+higher values of $\lambda$, $A_\lambda^{0}$ is given by an already calculated
+self-consistent $A_{\lambda'}^{\infty}$, with $\lambda = \lambda' + \Delta
+\lambda$, for $\Delta \lambda > 0 $. 
