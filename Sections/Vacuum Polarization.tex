@@ -1,18 +1,20 @@
 \section{The iterative procedure}
 \label{sec:The-iterative-procedure}
 
-The effect of backreaction is studied as an (infinite dimensional) fixed point problem, i.e. the solution $A_0$ to 
+The effect of the backreaction of the scalar field to the background
+electromagnetic field is studied by an iterative procedure. This procedure is
+best described in the language of infinite dimensional fixed point problems. An external electric field given by $A_0$, displaces the charges inducing the vacuum polarization $\rho$ (cf. Eq.~\eqref{eq:vacuum-polarization-long}), which in itself induces a new electric potential (cf. Eq.~\eqref{eq:A0-general}). We look for the fixed points  $A_0$ of certain update function $f$
 \begin{align}
-    A_0 = f(A_0).
+    A_0 = f(A_0),
     \label{eq:fixed-point-problem}
 \end{align}
-Here, $f$ is a complicated update function, which for a given potential $A_0$
+where $f$ is the composition of all the steps described in the above sections. In summary, for a given potential $A_0$, 
 \begin{enumerate}
-    \item calculates the modes of the scalar field $\phi$ from Eq.~\eqref{eq:mode-equation},
-    \item calculates the corresponding vacuum polarization $\rho$ according to  Eq.~\eqref{eq:vacuum-polarization-long},
-    \item returns the corresponding potential $A_0$ following Eq.~\eqref{eq:A0-general}.
+    \item  the modes of the scalar field $\phi$ from Eq.~\eqref{eq:mode-equation} are calculated,
+    \item  the corresponding vacuum polarization $\rho$ is calculated according to  Eq.~\eqref{eq:vacuum-polarization-long} and Sec.~\ref{sec:Computing-the-vacuum-polarization},
+    \item  the corresponding potential $A_0$ is calculated following Eq.~\eqref{eq:A0-general} and returned. 
 \end{enumerate}
-Self-consistent solutions, or fixed points of $f$, are looked for by studying the limit $\lim_{\kappa\to \infty}A_{0,\lambda}^{\kappa}$, where 
+The fixed points of $f$, denominated ``self-consistent solutions", are looked for by studying the limit $\lim_{\kappa\to \infty}A_{0,\lambda}^{\kappa}$, where 
 \begin{align}
     A_{0,\lambda}^{\kappa + 1} = f(A_{0,\lambda}^{\kappa}) =
     f^{\kappa}\left(A_{0, \lambda}^{0} \right), \textrm{with } f^\kappa =
@@ -26,36 +28,49 @@ polarization $\rho_{\lambda}^{\infty}$, field modes $\phi_{n,
 
 For low enough $\lambda\ll \lambda_c$, the initial value of the sequence $A_{0,
 \lambda}^0$  can be safely set to the external field approximation $A_{0,
-\lambda}^0(z) = -\lambda \left(z- \frac{1}{2}\right).$ For bigger
-$\lambda$, this potential is no longer a valid starting potential  as it
-might lead to non-convergence of $\lim_{\kappa \to \infty} A_0^{\kappa}$ or
-complex $\omega_{n,\lambda}$. For higher values of $\lambda$,  $A_{0,
-\lambda}^{0}$ is given by an already calculated self-consistent potential
-$A_{0, \lambda'}^{\infty}$ with $\lambda = \lambda' + \Delta \lambda$, with
-$\Delta \lambda > 0$. This scheme allows us to probe the $\lambda$-parameter
-space.
- 
-For a given $\lambda$, at each step $\kappa$, the following steps are taken
+\lambda}^0(z) = -\lambda \left(z- \frac{1}{2}\right).$ For bigger $\lambda$,
+this potential is no longer a valid starting potential  as it might lead to
+non-convergences in the sequence $ A_{0, \lambda}^{\kappa}$, as discussed in the Appendix
+??\marginnote{Discuss the non-convergences of $A_{0, \lambda}$}. Due to the instabilities
+of the external field approximation briefly discussed above, the use of this
+approximation for $A_{0, \lambda}^{0}$, with a high enough $\lambda$-value,
+also leads to complex $\omega_{n,\lambda}$. For higher $\lambda$-values,
+$A_{0, \lambda}^{0}$ is instead set by an already calculated self-consistent
+potential $A_{0, \lambda'}^{\infty}$ with $\lambda = \lambda' + \Delta
+\lambda$, where $\Delta \lambda > 0$. Using this scheme, the
+$\lambda$-parameter space is probed. 
+
+
+At each iteration step $\kappa$, the update function $ f$ performs the
+following calculations
 \begin{subequations}
    \label{eq:iterative-procedure}
 \begin{align}
     \frac{d {^2}\phi_{n, \lambda}^{\kappa}}{d {z^2}} {}  &= 
-    -\left[ (\omega_{n, \lambda}^\kappa - \varepsilon A^{\kappa -1 }_{0, \lambda}(z) )^2 
+    -\left[ (\omega_{n, \lambda}^\kappa - \varepsilon A^{\kappa -1 }_{0, \lambda} )^2 
      - a^2 m^2\right] \phi_{n, \lambda}^{\kappa}, 
     \label{eq:mode-equation-iterative}
     \\
-    A^{\kappa }_{0, \lambda}(z) &= c A_{0, \lambda}^{\kappa-1} + \left(1-c
+    \rho_\lambda^{\kappa} &= \lim_{\tau \to 0} \left[\sum_{n>0}^{} (\omega_{n,
+        \lambda}^\kappa - \varepsilon A_{0, \lambda}^{\kappa-1} )\lvert \phi_{n,
+        \lambda}^\kappa\rvert^2 e^{-i\omega^\kappa_{n, \lambda} \tau}
+        +\sum_{n<0}^{} (\omega^{\kappa}_{n, \lambda} - \varepsilon
+        A_{0, \lambda}^{\kappa-1}) \lvert \phi^\kappa_{n, \lambda}\rvert^2
+    e^{i\omega^{\kappa}_{n, \lambda} \tau}\right] +
+    \frac{\varepsilon^2}{\pi}
+    A_{0, \lambda}^{\kappa-1} ,\\
+    A^{\kappa }_{0, \lambda} &= c A_{0, \lambda}^{\kappa-1} + \left(1-c
         \right)\left[ -\lambda\left(z - \frac{1}{2} \right) -
-            \int_{\frac{1}{2}}^{z} \int_{0}^{z'} \rho_\lambda^{\kappa-1}(z'') d z'' d
-    z' \right].
+            \int_{\frac{1}{2}}^{z} \int_{0}^{z'} \rho_\lambda^{\kappa}(z'') d z'' d
+    z' \right] .
         \label{eq:A0-general-iterative}
 \end{align}
 \end{subequations}
 Here, $c\in [0, 1]$ is introduced in order to ``relax" the procedure: For
 $c=0$, the procedure is precisely the one used in~\cite[]{Ambjorn:1981xv}. For
 $c$ close to 1, updates will only be corrections to the previous potential.
-This avoids certain numerical instabilities as $\lambda   > \lambda_c$. Having
-slower convergence schemes becomes increasingly relevant as $\lambda$ grows,
+This avoids certain numerical instabilities as $\lambda   > \lambda_c$. 
+Slower convergence schemes becomes increasingly relevant as $\lambda$ grows,
 which makes the system more unstable.
 %The mode subindices have been removed to avoid notation clutter.
 %The iterative procedure is schematized in Fig.~\ref{fig:iterative-procedure},
