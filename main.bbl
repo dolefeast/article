@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -110,13 +110,6 @@ E.~A. Uehling.
 \newblock Polarization effects in the positron theory.
 \newblock \emph{Phys. Rev.}, 48:\penalty0 55--63, 1935.
 \newblock \doi{10.1103/PhysRev.48.55}.
-
-\bibitem[Wald(1977)]{wald_back_1977}
-R.~M. Wald.
-\newblock The {Back} {Reaction} {Effect} in {Particle} {Creation} in {Curved}
-  {Space}-{Time}.
-\newblock \emph{Commun. Math. Phys.}, 54:\penalty0 1--19, 1977.
-\newblock \doi{10.1007/BF01609833}.
 
 \bibitem[Wernersson and Zahn(2021)]{wernersson_vacuum_2021}
 J.~Wernersson and J.~Zahn.

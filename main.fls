@@ -916,11 +916,6 @@ INPUT ./Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf
 INPUT Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf
 INPUT ./Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf
 INPUT ./Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf
-INPUT ./Figures/dirichlet/hambjorn.pdf
-INPUT ./Figures/dirichlet/hambjorn.pdf
-INPUT Figures/dirichlet/hambjorn.pdf
-INPUT ./Figures/dirichlet/hambjorn.pdf
-INPUT ./Figures/dirichlet/hambjorn.pdf
 INPUT ./Sections/iterative.tex
 INPUT Sections/iterative.tex
 INPUT ./Sections/iterative.tex
@@ -972,6 +967,15 @@ INPUT ./Sections/conclusions.tex
 INPUT Sections/conclusions.tex
 INPUT ./Sections/conclusions.tex
 INPUT Sections/conclusions.tex
+INPUT ./Appendices/mode-sum-formula.tex
+INPUT Appendices/mode-sum-formula.tex
+INPUT ./Appendices/mode-sum-formula.tex
+INPUT Appendices/mode-sum-formula.tex
+INPUT ./Figures/dirichlet/hambjorn_annotated.pdf
+INPUT ./Figures/dirichlet/hambjorn_annotated.pdf
+INPUT Figures/dirichlet/hambjorn_annotated.pdf
+INPUT ./Figures/dirichlet/hambjorn_annotated.pdf
+INPUT ./Figures/dirichlet/hambjorn_annotated.pdf
 INPUT ./Appendices/vacuum-polarization.tex
 INPUT Appendices/vacuum-polarization.tex
 INPUT ./Appendices/vacuum-polarization.tex

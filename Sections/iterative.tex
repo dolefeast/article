@@ -1,11 +1,13 @@
 \section{Self-consistent fields}
 \label{sec:The-iterative-procedure}
 
-The effect of the backreaction of the scalar field to the background
-electromagnetic field is studied by an iterative procedure. 
-For each value of $\lambda$, at each iteration $\kappa$, one computes the following
+As discussed above, the polarization of the vacuum induces a charge density $\rho$, which modifies the background field as in Eq.~\eqref{eq:A0-general}. This modified background field can be used in Eq.~\eqref{eq:mode-equation-iterative} to calculate new solutions, that will have a different vacuum polarization. This iterative procedure, schematized in Fig.~\ref{fig:iterative-procedure}, is performed \textit{ad infinitum}, and we study its convergence.
+
+
+
+More precisely, for each value of $\lambda$ and at each iteration $\kappa$, we compute  the following
 \begin{subequations}
-   \label{eq:iterative-procedure}
+\label{eq:iterative-procedure}
 \begin{align}
     \frac{d {^2}\phi_{n, \lambda}^{\kappa}}{d {z^2}} {}  &= 
     -\left[ (\omega_{n, \lambda}^\kappa - \varepsilon A^{\kappa -1 }_{0, \lambda} )^2 
@@ -32,7 +34,9 @@ For each value of $\lambda$, at each iteration $\kappa$, one computes the follow
         \label{eq:A0-general-iterative}
 \end{align}
 \end{subequations}
-This procedure has two main differences from the one used in \cite{ambjorn_properties_1983}: the expression for the vacuum polarization, and the $c<1$ prescription in Eq.~\eqref{eq:A0-general-iterative}.
+\input{Figures/iterativeLoop.tex}
+
+This procedure has two main differences from the one used in \cite{ambjorn_properties_1983}: the expression for the vacuum polarization, and the $c<1$ prescription in Eq.~\eqref{eq:A0-general-iterative}, which is discussed below.
 The details on how $\rho$ is calculated are explained in Appendix~\ref{sec:Computing-the-vacuum-polarization}. Initial conditions of this procedure are discussed below.
 
 Noticing how Eq.~\eqref{eq:A0-general-iterative} acts as an update function  on $A_{0,\lambda}^{\kappa-1}$, we write this scheme as an infinite dimensional fixed point problem. This is, for each $\lambda$, we look for the fixed point $A_{0, \lambda}$ obeying
@@ -62,7 +66,7 @@ potential $A_{0, \lambda'}$ with $\lambda = \lambda' + \Delta
 
 
 
-Finally, in Eq.~\eqref{eq:A0-general-iterative}, $c\in [0, 1]$ is introduced in order to ``relax" the procedure: For
+Finally, in Eq.~\eqref{eq:A0-general-iterative}, $c\in [0, 1]$ is introduced in order to avoid an overshooting of the potential: For
 $c=0$, the procedure is precisely the one used in~\cite[]{ambjorn_properties_1983}, and it is expected to quickly converge. For
 $c$ close to 1, updates will be small corrections to the previous potential.
 %This avoids certain numerical instabilities appearing in the strong-field regime $\lambda \gtrsim \lambda_c$. 
@@ -77,7 +81,6 @@ Considering this, we adopt a scheme in which, as $\lambda$ increases, $c$ increa
 %$\rho^\infty_\lambda, \omega_\lambda^{\infty}, \text{ and } \phi_\lambda
 %^{\infty}$ also acquire the adjective ``self-consistent".
 
-\input{Figures/iterativeLoop.tex}
 
 %For a low $\lambda\ll \lambda_c$, the initial potential $A_\lambda^{0} = -\lambda
 %\left(z-\frac{1}{2}\right)$ is given by the external field approximation. For

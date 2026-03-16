@@ -2,8 +2,8 @@
 
 In 1+1 dimensional spacetime, two charges $q, -q$
 are set at $x^1=0, x^{1}=a$, respectively. Ignoring vacuum polarization effects,
-this yields a constant electric field of strength $q$ pointing towards positive $x^{1}$ in the region $x^1\in[0, 1]$, 0 everywhere else.
-We study the solutions to the semiclassical Klein-Gordon-Maxwell equations, i.e. the system of coupled differential equations
+this yields a constant electric field of strength $q$ pointing towards positive $x^{1}$ in the region $x^1\in[0, a]$, 0 everywhere else.
+We study the solutions to the semiclassical Klein-Gordon-Maxwell equations (KGM), i.e.~the system of coupled differential equations
 \begin{subequations}
     \begin{align}
         \left( D_\mu D^\mu + m^2 \right)\phi &= 0, 
@@ -19,17 +19,15 @@ derivative, \begin{align}
     \label{eq:charge-current-density}
 \end{align}
 is the charge current density of the Klein-Gordon field, and
-$\left< \mathcal{O}\right>$ is the vacuum expectation value of an observable $\mathcal{O}.$ Following
-\cite[]{ambjorn_properties_1983,wernersson_vacuum_2021}, the metric signature
+$\left< \mathcal{O}\right>$ is the vacuum expectation value of an observable $\mathcal{O},$ and the metric signature
 is $(+,-)$.
-The solutions looked for are the Maxwell tensor $F^{\mu
-\nu}$ and the two-point function of the vacuum state. 
+We solve for $F_{\mu\nu}$ and (the mode decomposition of) the two-point function of the vacuum state.
 
 In 1+1 dimensions, $A_1$ can be arbitrarily set to 0. This way, Eq.~\eqref{eq:Maxwell} reduces to the Poisson equation for the electrostatic potential $A_0$
 \begin{align}
     \partial_1^2 A_0(x^1) = -\left< j^0 \right> \equiv -\rho, \label{eq:poisson}
 \end{align} 
-with $\rho$ the vacuum polarization, i.e. the vacuum expectation value of the zeroth component of the charge current density.
+with $\rho$ the vacuum polarization, i.e.~the vacuum expectation value of the zeroth component of the charge current density.
 Eq.~\eqref{eq:poisson} will be solved with the boundary conditions
 \begin{align}
     \left. \partial_1
@@ -54,29 +52,22 @@ In this gauge, the Klein-Gordon equation is of the form \begin{align}
     \label{eq:TDKGE}
 \end{align}
 which we will study using Dirichlet boundary conditions (DBC) $\left.\phi \right|_{x^{1}=0,a} = 0$ or Neumman boundary conditions (NBC) $\left.\partial_{1} \phi\right|_{x^1=0,a }=0$. More general boundary conditions may be considered, though they are outside of the scope of this work.
-Linearity in  Eq.~\eqref{eq:TDKGE} hints us towards the single frequency ansatz $\phi_n(x) = \phi_n (x^{1}) e^{-i\Omega_n x^0}$ with which we split the PDE into ordinary differential equations for each of the modes
+Using the mode ansatz $\phi_n(x) = \phi_n (x^{1}) e^{-i\Omega_n x^0}$  the PDE is split into ordinary differential equations for each mode $\phi_n (x^{1})$ of the scalar field
 \begin{align}
     \left[ (\Omega_n - e A_0 )^2 + \partial_{1}^2 -  m^2 \right]\phi_n
-    = 0,
+    = 0.
     \label{eq:TIKGE}
 \end{align}
-where the frequencies $\Omega_n$ are gauge dependent and to be determined by
-the boundary conditions.
-
 The following dimensionless parameters are defined
 \begin{subequations}
     \begin{align}
 z &= a^{-1}x^1\\
 \lambda &= e E a^2\\
 \varepsilon &= ae\\
-\omega_{n} &= a\Omega_{n, \alpha} + \lambda \alpha
+\omega_{n} &= a\Omega_{n, \alpha}
 \end{align}
 \end{subequations}
-where $\alpha \in \mathbb{R}$ is a parameter characterizing
-global gauge transformations of the form \begin{align}
-    \varepsilon A_0 \to \varepsilon A_0 + \lambda\alpha.
-\end{align} This ensures the mode energies $\omega_n$  to be gauge invariant,
-and Eq.~\eqref{eq:TIKGE} takes the form \begin{align}
+Eq.~\eqref{eq:TIKGE} then takes the form \begin{align}
     \left[ (\omega_n - \varepsilon A_0 )^2 + \frac{d^2}{dz^2} - a^2
     m^2\right] \phi_n = 0.  \label{eq:mode-equation}
 \end{align}
@@ -92,6 +83,7 @@ The general solution to Eq.~\eqref{eq:TDKGE} is thus decomposed in
 modes \begin{align}
     \phi(t, z) = \sum_{n>0}^{} a_n \phi_n(z) e^{-i\omega_n t} +
     \sum_{n<0}^{} b^\dagger_n \phi_n(z) e^{-i\omega_n t}.
+    \label{eq:mode-decomposition}
 \end{align} Positive (negative) values of $n$ are identified with modes of positive
 (negative) norm. $a_n$ and $b_n$ are the ladder operators for the positive and
 negative norm solutions, respectively, obeying canonical commutation relations
@@ -99,18 +91,14 @@ $
     [a_n, a_n^\dagger ] = [b_n, b_n^\dagger ] =\delta_{nm},
 $
 and all other commutators vanishing. The ladder operators define
-the vacuum state $\ket{0}$ as that for which $a \ket{0} = b\ket{0} = 0$.
+the vacuum state $\ket{0}$ as that for which $a \ket{0} = b\ket{0} = 0$. Note that due to the chosen gauge, $\omega_n = -\omega_{-n},$ and the $b_n^\dagger$  are the creation operators of the negative frequency family of solutions. 
 
-As mentioned above, the definition of operators such as $\rho$ is problematic, since it involves the product of local observables 
-evaluated at coinciding spacetime points (see Eq.~\eqref{eq:charge-current-density}). 
-Historically, the definition of such observables was first done by Dirac by assuming a certain behavior of the vacuum at close distances. In modern literature, states obeying this condition are said to be Hadamard. Interest in Hadamard states has seen an increase in the last years in the community of Quantum Field Theory in Curved Spacetimes (cf. e.g.~\cite{wald_back_1977}), where the definition of observables such as the stress-energy tensor is a necessary building block for studies of semi-classical gravity or interacting fields.
-Hadamard states of a field $\phi$ are states that have a similar short-distance behavior as the vacuum of the field in the absence of background gauge fields.  It is generally accepted that all physically relevant states
-$\Omega$ are of this form, where the short-distance divergence structure of the
-field is covariant, local, state independenent, and constructed from the
-background, i.e. the gauge connection.
+As mentioned above, the definition of quantities such as $\rho$ \textemdash Wick polynomials\textemdash is problematic, since it involves the product of local observables 
+evaluated at coinciding spacetime points (see Eq.~\eqref{eq:charge-current-density}).
+To define such polynomials, one assumes that the states of a field $\phi$ are Hadamard, i.e.~they have a similar short-distance behavior to the vacuum of  $\phi$ in absence of background fields, and are assumed to be the only physically relevant states~\cite{fewster_necessity_2013}. Under this assumption, the divergence of such states is state independenent and locally constructed from the background fields. Since $\phi$ is coupled to the background field through the covariant derivative, one may use the setup at hand as a toy model for semi-classical gravity, a possible first step towards an elusive quantum theory of gravity.
 
-Equivalently, one says that the two point function  $w_{\Omega}^{\phi \phi^*}(x, x') $ of the scalar field $\phi$ in
-a Hadamard state $\Omega$  acquires the form
+Specifically, one says that the two point function  $w_{\Omega}^{\phi \phi^*}(x, x') = \braket{\Omega | \phi (x)\phi^* (x')| \Omega} $ of the scalar field $\phi$ in
+a Hadamard state $\Omega$  is of the form
 \begin{align}
     w_{\Omega}^{\phi\phi^*}(x, x') 
     \equiv H^{\phi \phi^*}(x, x')  + R^{\phi \phi^*}_{\Omega} (x, x').
@@ -118,24 +106,25 @@ a Hadamard state $\Omega$  acquires the form
 \end{align}
 Here,
 \begin{equation}
-    H^{\phi\phi^*} = -\frac{V_0(x,x')}{4\pi} \ln [(t-t')^2 -
+    H^{\phi\phi^*} = -\frac{V(x,x')}{4\pi} \ln [(t-t')^2 -
     (z-z')^2 + i\varepsilon \text{sign} (t-t')]
     \label{eq:hadamard-parametrix}
 \end{equation}
-is the Hadamard parametrix of the scalar field in 1+1 spacetime dimensions, up
-to order relevant for the vacuum polarization, and $R_{\Omega}^{\phi\phi^*}$
+is the Hadamard parametrix of the scalar field in 1+1 spacetime dimensions and $R_{\Omega}^{\phi\phi^*}$
 a state-dependent smooth function. 
-\begin{equation}
-    V_0(x, x') = \exp\left[-i\varepsilon \int_{0}^{1} A_{\mu}(x' +
-    s(x-x') ) (x - x')^{\mu}ds \right]
-\end{equation} 
-is the parallel transport, which preserves gauge invariance in the coinciding
-point limit. The Hadamard condition allows us to define expectation values of
-local observables non-linear in the fields:
+The smooth coefficient $V$, up to order relevant for vacuum polarization reads \cite{schlemmer_current_2015}
+\begin{align*}
+    V(x, x') &= \exp\left[-i\varepsilon \int_{0}^{1} A_{\mu}(x' +
+    s(x-x') ) (x - x')^{\mu}ds \right] \\&+ \mathcal{O}(x-x')^2.
+\end{align*} 
+The Hadamard condition allows us to define expectation values of
+local observables non-linear in the fields as a limit of coinciding points:
 \begin{align}
-    \left< D_\alpha \phi (x) D^{*}_\beta \phi^*(x) \right> = \lim_{x' \to x}
-    D_\alpha D^{*}_\beta{}' (w_\Omega^{\phi \phi^*}(x, x')- H^{\phi\phi^*}(x,
+\begin{split}
+         \braket{D_\alpha \phi (x) D^{*}_\beta \phi^*(x)} & \\= \lim_{x' \to x}
+    D_\alpha D^{*}_\beta{}' &(w_\Omega^{\phi \phi^*}(x, x')- H^{\phi\phi^*}(x,
     x')),
+\end{split}
     \label{eq:point-splitting}
 \end{align}
 with $\alpha, \beta$ symmetrized multiindices. The above prescription is called \textit{point-splitting with respect to a Hadamard parametrix.}
@@ -153,7 +142,7 @@ with $\alpha, \beta$ symmetrized multiindices. The above prescription is called 
     \label{fig:Figures-dirichlet-unfilteredRhoaa-pdf}
 \end{figure}
 
-Using these definitions, \cite{wernersson_vacuum_2021} calculates the expression for vacuum polarization that we will use along the paper
+Eqs.~\eqref{eq:point-splitting}, \eqref{eq:charge-current-density} and the mode decomposition \eqref{eq:mode-decomposition} together result in the expression for $\rho$ calculated in \cite{wernersson_vacuum_2021}
 \begin{align}
 \begin{split}
         \rho =& \lim_{\tau \to 0} \sum_{n>0}^{} \Big[(\omega_n - \varepsilon A_0) \lvert
@@ -165,15 +154,15 @@ Using these definitions, \cite{wernersson_vacuum_2021} calculates the expression
    \label{eq:vacuum-polarization-long}
 \end{align}
 An example of $\rho$ using this expression is given in
-Fig.~\ref{fig:Figures-dirichlet-unfilteredRhoaa-pdf}, calculated in the external field approximation below explained, i.e. a homogeneous background electric field given by the potential $A_0(z) = -(z-0.5)$.
+Fig.~\ref{fig:Figures-dirichlet-unfilteredRhoaa-pdf}, calculated in the external field approximation explained below, i.e.~a homogeneous background electric field given by the potential $A_0(z) = -0.5(z-0.5)$.
 
 To measure the \textit{strength} of the vacuum polarization, the \textit{induced charge}
 \begin{align}
     Q_I = \int_{0}^{\frac{1}{2}} \rho(z) dz
     \label{eq:polarized charge}
 \end{align}
-is defined. This charge will screen the background electric field $\lambda$,
-and Gauß's law yields that the total electric field at $z=\frac{1}{2}$ is
+is defined. This charge partially screens the background electric field $\lambda$,
+and Gauß's law yields that the total electric field at $z=\frac{1}{2}$ as
 $\lambda + Q_I$.
 
 \subsection{External Field Approximation and Critical Field Strength}
@@ -188,7 +177,7 @@ $A_0(z) = -\lambda (z - \frac{1}{2})$, and takes the form
     \centering
         \includegraphics[width=0.45\textwidth]{Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf}
         \caption{Energies of the three first modes of the massless
-    Klein-Gordon field subject to DBC
+    Klein-Gordon field subject to DBC in the external field approximation
     as functions of  $\lambda.$ $\omega_1\to0$ as $\lambda\to\lambda_c \approx 16$ defines the critical field strength for these mass and boundary conditions configurations.}
     \label{fig:eigenvalues-external-field-approximation-kg}
 \end{figure}
@@ -213,7 +202,7 @@ Fig.~\ref{fig:eigenvalues-external-field-approximation-kg} displays the energies
 $\omega_1, \omega_2, \omega_3$ of the first three modes  of the
 massless scalar field with DBC as functions of the
 background field strength $\lambda$. 
-The value at which $\omega_1\to0$ defines the critical field strength $\lambda_c\approx16.05039$.  Fig.~\ref{fig:QI-eigenvalues-external-field-approximation} displays the divergent behavior of  $Q_I(\lambda)$ for this configuration as $\lambda\to\lambda_c$. $\lambda_c$ adopts different values for different boundary conditions and masses.
+The value at which $\omega_1$ goes to $0$ defines the critical field strength $\lambda_c\approx16.05039$.  Fig.~\ref{fig:QI-eigenvalues-external-field-approximation} displays the divergent behavior of  $Q_I(\lambda)$ for this configuration as $\lambda\to\lambda_c$. $\lambda_c$ adopts different values for different boundary conditions and masses.
 
 
 
@@ -230,9 +219,9 @@ The value at which $\omega_1\to0$ defines the critical field strength $\lambda_c
 %from the single frequency ansatz leads to runaway solutions.
 %
 \cite[]{ambjorn_properties_1983} claims that the 
-backreaction of $\phi$ to the background electric field avoids these instabilities. However, the expression used
+backreaction of $\phi$ to the background electric field avoids these instabilities. However, the expression used therein
 for the vacuum polarization cannot be derived from gauge invariant renormalization schemes; one should rather use the
-prescription described in \cite[]{wernersson_vacuum_2021}. This article
+prescription described in~\cite[]{wernersson_vacuum_2021}. Their qualitative discrepancies are detailed in Appendix~\ref{sec:mode-sum-formula}. This article
 answers the following question: does considering the backreaction
 using the correct prescription for the vacuum polarization avoid the
 instabilities that would otherwise be present?
@@ -247,24 +236,3 @@ instabilities that would otherwise be present?
 
 
 
-Vacuum polarization in \cite{ambjorn_properties_1983} is defined through a mode sum formula
-\begin{align}
-\begin{split}
-        \rho &= \sum_{n>0}^{} \rho_n \\&= \sum_{n>0}^{}\big[(\omega_n-\varepsilon A_0)\lvert \phi_n \rvert^2
-    - ( \omega_n +\varepsilon A_0) \lvert\phi_{-n}\rvert^2
-    \big],
-\end{split}
-    \label{eq:mode-sum}    
-\end{align}
-so called since the total charge density is calculated as the sum of the contribution $\rho_n$ of each mode to the total charge. 
-The above expression cannot be obtained from a gauge invariant renormalization scheme, and also relies on a specific pairing of the modes in the series to be convergent. 
-In using the iterative procedure, \cite{ambjorn_properties_1983} truncated the mode sum to the first mode. Fig.~\ref{fig:hambjorn} shows the different $\rho$ resulting from the different prescriptions. At first sight, it might be surprising that a field subject to DBC has non-zero vacuum polarization at the boundaries. This is precisely due to the missing $\frac{\varepsilon^2}{\pi}A_0$ term in Eq.~\eqref{eq:mode-sum}. 
-In using the iterative procedure \cite{ambjorn_properties_1983} truncates the mode sum \eqref{eq:mode-sum} to the first mode, which leads to the red curve in Fig.~\ref{fig:hambjorn}, leading to a vacuum polarization aproximately an order of magnitude stronger than the one one would obtain when using Eq.~\eqref{eq:vacuum-polarization-long}.
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.45\textwidth]{Figures/dirichlet/hambjorn.pdf}
-    \caption{Three different $\rho$ for the same massless scalar field subject to DBC: In blue, the correct prescription as explained in \cite{wernersson_vacuum_2021}. In orange, $\rho$ calculated through the mode sum \eqref{eq:mode-sum}. In red, $\rho$ defined through the mode sum formula, truncated to the first mode. }
-    \label{fig:hambjorn}
-\end{figure}
