@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,30 +10,6 @@ J.~Ambjorn and S.~Wolfram.
 \newblock Properties of the {Vacuum}. 2. {Electrodynamic}.
 \newblock \emph{Annals Phys.}, 147:\penalty0 33, 1983.
 \newblock \doi{10.1016/0003-4916(83)90066-0}.
-
-\bibitem[Bañuls et~al.(2013)Bañuls, Cichy, Jansen, and
-  Cirac]{banuls_mass_2013}
-M.~C. Bañuls, K.~Cichy, K.~Jansen, and J.~I. Cirac.
-\newblock The mass spectrum of the {Schwinger} model with {Matrix} {Product}
-  {States}.
-\newblock \emph{Journal of High Energy Physics}, 2013\penalty0 (11):\penalty0
-  158, Nov. 2013.
-\newblock ISSN 1029-8479.
-\newblock \doi{10.1007/JHEP11(2013)158}.
-\newblock URL \url{http://arxiv.org/abs/1305.3765}.
-\newblock arXiv:1305.3765 [hep-lat].
-
-\bibitem[Bañuls et~al.(2015)Bañuls, Cichy, Cirac, Jansen, and
-  Saito]{banuls_thermal_2015}
-M.~C. Bañuls, K.~Cichy, J.~I. Cirac, K.~Jansen, and H.~Saito.
-\newblock Thermal evolution of the {Schwinger} model with {Matrix} {Product}
-  {Operators}.
-\newblock \emph{Physical Review D}, 92\penalty0 (3):\penalty0 034519, Aug.
-  2015.
-\newblock ISSN 1550-7998, 1550-2368.
-\newblock \doi{10.1103/PhysRevD.92.034519}.
-\newblock URL \url{http://arxiv.org/abs/1505.00279}.
-\newblock arXiv:1505.00279 [hep-lat].
 
 \bibitem[Costeri et~al.(2025)Costeri, Dappiaggi, Juárez-Aubry, and
   Singh]{costeri_hadamard_2025}

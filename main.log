@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.20)  16 MAR 2026 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.20)  16 MAR 2026 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -585,16 +585,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `main.toc'.
 
  (./Sections/introduction.tex
-Underfull \hbox (badness 1742) in paragraph at lines 8--9
-[]\OT1/cmr/m/n/10 Defining vac-uum po-lar-iza-tion for gen-eral back-
+Underfull \hbox (badness 1881) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/10 Defining vac-uum po-lar-iza-tion for generic back-
  []
 
-[1
+) (./Sections/methodology.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]) (./Sections/methodology.tex [2]
+] [2]
 Overfull \hbox (4.26549pt too wide) detected at line 131
 [][]\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; x[]\OT1/cmr/m/n/10 ) = [] []
  []
@@ -604,7 +604,7 @@ Overfull \hbox (29.7926pt too wide) detected at line 140
 []
  []
 
-<Figures/dirichlet/rhoEvolution.pdf, id=148, 248.46425pt x 183.42125pt>
+<Figures/dirichlet/rhoEvolution.pdf, id=147, 248.46425pt x 183.42125pt>
 File: Figures/dirichlet/rhoEvolution.pdf Graphic file (type pdf)
 <use Figures/dirichlet/rhoEvolution.pdf>
 Package pdftex.def Info: Figures/dirichlet/rhoEvolution.pdf  used on input line 146.
@@ -615,12 +615,12 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 146--152
  []
 
 [3 <./Figures/dirichlet/rhoEvolution.pdf>]
-<Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf, id=184, 247.01117pt x 179.97006pt>
+<Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf, id=182, 247.01117pt x 179.97006pt>
 File: Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf Graphic file (type pdf)
 <use Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf>
 Package pdftex.def Info: Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf  used on input line 189.
 (pdftex.def)             Requested size: 217.6621pt x 158.59108pt.
-<Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf, id=185, 247.01117pt x 180.51509pt>
+<Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf, id=183, 247.01117pt x 180.51509pt>
 File: Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf Graphic file (type pdf)
 <use Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf>
 Package pdftex.def Info: Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf  used on input line 197.
@@ -629,7 +629,7 @@ Package pdftex.def Info: Figures/dirichlet/inducedChargeExternalFieldApproximati
 
 pdfTeX warning: pdflatex (file ./Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/dirichlet/hambjorn.pdf, id=235, 277.15118pt x 200.47697pt>
+<Figures/dirichlet/hambjorn.pdf, id=233, 277.15118pt x 200.47697pt>
 File: Figures/dirichlet/hambjorn.pdf Graphic file (type pdf)
 <use Figures/dirichlet/hambjorn.pdf>
 Package pdftex.def Info: Figures/dirichlet/hambjorn.pdf  used on input line 267.
@@ -643,7 +643,7 @@ Overfull \hbox (4.74031pt too wide) in paragraph at lines 30--31
  []
 
 )) (./Sections/results.tex
-<Figures/dirichlet/eigenvalues.pdf, id=299, 248.46425pt x 183.42125pt>
+<Figures/dirichlet/eigenvalues.pdf, id=297, 248.46425pt x 183.42125pt>
 File: Figures/dirichlet/eigenvalues.pdf Graphic file (type pdf)
 <use Figures/dirichlet/eigenvalues.pdf>
 Package pdftex.def Info: Figures/dirichlet/eigenvalues.pdf  used on input line 35.
@@ -653,12 +653,12 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 34--37
  []$[]$ 
  []
 
-<Figures/dirichlet/inducedCharge.pdf, id=300, 248.46425pt x 183.42078pt>
+<Figures/dirichlet/inducedCharge.pdf, id=298, 248.46425pt x 183.42078pt>
 File: Figures/dirichlet/inducedCharge.pdf Graphic file (type pdf)
 <use Figures/dirichlet/inducedCharge.pdf>
 Package pdftex.def Info: Figures/dirichlet/inducedCharge.pdf  used on input line 39.
 (pdftex.def)             Requested size: 241.84842pt x 178.54204pt.
-<Figures/dirichlet/electricFieldInduced.pdf, id=301, 248.46425pt x 183.42125pt>
+<Figures/dirichlet/electricFieldInduced.pdf, id=299, 248.46425pt x 183.42125pt>
 File: Figures/dirichlet/electricFieldInduced.pdf Graphic file (type pdf)
 <use Figures/dirichlet/electricFieldInduced.pdf>
 Package pdftex.def Info: Figures/dirichlet/electricFieldInduced.pdf  used on input line 42.
@@ -676,17 +676,17 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 38--46
 
 LaTeX Warning: Float too large for page by 99.1505pt on input line 48.
 
-<Figures/neumann/eigenvalues.pdf, id=302, 248.46425pt x 183.42125pt>
+<Figures/neumann/eigenvalues.pdf, id=300, 248.46425pt x 183.42125pt>
 File: Figures/neumann/eigenvalues.pdf Graphic file (type pdf)
 <use Figures/neumann/eigenvalues.pdf>
 Package pdftex.def Info: Figures/neumann/eigenvalues.pdf  used on input line 53.
 (pdftex.def)             Requested size: 241.84842pt x 178.54251pt.
-<Figures/neumann/inducedCharge.pdf, id=303, 244.9953pt x 179.9523pt>
+<Figures/neumann/inducedCharge.pdf, id=301, 244.9953pt x 179.9523pt>
 File: Figures/neumann/inducedCharge.pdf Graphic file (type pdf)
 <use Figures/neumann/inducedCharge.pdf>
 Package pdftex.def Info: Figures/neumann/inducedCharge.pdf  used on input line 56.
 (pdftex.def)             Requested size: 241.84842pt x 177.64807pt.
-<Figures/neumann/electricFieldInduced.pdf, id=304, 244.9953pt x 179.9523pt>
+<Figures/neumann/electricFieldInduced.pdf, id=302, 244.9953pt x 179.9523pt>
 File: Figures/neumann/electricFieldInduced.pdf Graphic file (type pdf)
 <use Figures/neumann/electricFieldInduced.pdf>
 Package pdftex.def Info: Figures/neumann/electricFieldInduced.pdf  used on input line 59.
@@ -709,13 +709,13 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 52--61
 
 LaTeX Warning: Float too large for page by 25.36209pt on input line 63.
 
-<Figures/dirichlet/inducedChargeComparison.pdf, id=307, 247.01117pt x 180.51509pt>
+<Figures/dirichlet/inducedChargeComparison.pdf, id=305, 247.01117pt x 180.51509pt>
 File: Figures/dirichlet/inducedChargeComparison.pdf Graphic file (type pdf)
 <use Figures/dirichlet/inducedChargeComparison.pdf>
 Package pdftex.def Info: Figures/dirichlet/inducedChargeComparison.pdf  used on input line 74.
 (pdftex.def)             Requested size: 217.6621pt x 159.07135pt.
 ) (./Sections/conclusions.tex) (./Appendices/vacuum-polarization.tex [6] [7 <./Figures/dirichlet/eigenvalues.pdf> <./Figures/dirichlet/inducedCharge.pdf> <./Figures/dirichlet/electricFieldInduced.pdf> <./Figures/neumann/eigenvalues.pdf> <./Figures/neumann/inducedCharge.pdf> <./Figures/neumann/electricFieldInduced.pdf>]
-<Figures/dirichlet/unfilteredRhoaa.pdf, id=414, 246.06013pt x 183.42125pt>
+<Figures/dirichlet/unfilteredRhoaa.pdf, id=412, 246.06013pt x 183.42125pt>
 File: Figures/dirichlet/unfilteredRhoaa.pdf Graphic file (type pdf)
 <use Figures/dirichlet/unfilteredRhoaa.pdf>
 Package pdftex.def Info: Figures/dirichlet/unfilteredRhoaa.pdf  used on input line 22.
@@ -725,28 +725,28 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
-) (./main.bbl [8 <./Figures/dirichlet/inducedChargeComparison.pdf> <./Figures/dirichlet/unfilteredRhoaa.pdf>]
-Underfull \hbox (badness 6047) in paragraph at lines 56--64
+) (./main.bbl
+Underfull \hbox (badness 6047) in paragraph at lines 32--40
 \OT1/cmr/m/n/10 03701573.  doi: $10 . 1016 / j . physrep . 2023 . 01 .
  []
 
-) [9] (./main.aux)
+[8 <./Figures/dirichlet/inducedChargeComparison.pdf> <./Figures/dirichlet/unfilteredRhoaa.pdf>]) [9] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C59DA0B459C2B1FF1D136A936E56B73B;1403.
  ) 
 Here is how much of TeX's memory you used:
- 23841 strings out of 478287
- 446928 string characters out of 5849289
- 735175 words of memory out of 5000000
- 41535 multiletter control sequences out of 15000+600000
+ 23833 strings out of 478287
+ 446730 string characters out of 5849289
+ 736034 words of memory out of 5000000
+ 41529 multiletter control sequences out of 15000+600000
  480093 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,18n,104p,1026b,839s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,18n,104p,1060b,839s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 606099 bytes).
+Output written on main.pdf (9 pages, 604601 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 81 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

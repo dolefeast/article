@@ -894,11 +894,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./Sections/methodology.tex
+INPUT Sections/methodology.tex
+INPUT ./Sections/methodology.tex
+INPUT Sections/methodology.tex
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./Sections/methodology.tex
-INPUT Sections/methodology.tex
-INPUT ./Sections/methodology.tex
-INPUT Sections/methodology.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./Figures/dirichlet/rhoEvolution.pdf
 INPUT ./Figures/dirichlet/rhoEvolution.pdf
