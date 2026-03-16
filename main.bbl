@@ -1,0 +1,152 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ambjorn and Wolfram(1983)]{ambjorn_properties_1983}
+J.~Ambjorn and S.~Wolfram.
+\newblock Properties of the {Vacuum}. 2. {Electrodynamic}.
+\newblock \emph{Annals Phys.}, 147:\penalty0 33, 1983.
+\newblock \doi{10.1016/0003-4916(83)90066-0}.
+
+\bibitem[Bañuls et~al.(2013)Bañuls, Cichy, Jansen, and
+  Cirac]{banuls_mass_2013}
+M.~C. Bañuls, K.~Cichy, K.~Jansen, and J.~I. Cirac.
+\newblock The mass spectrum of the {Schwinger} model with {Matrix} {Product}
+  {States}.
+\newblock \emph{Journal of High Energy Physics}, 2013\penalty0 (11):\penalty0
+  158, Nov. 2013.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP11(2013)158}.
+\newblock URL \url{http://arxiv.org/abs/1305.3765}.
+\newblock arXiv:1305.3765 [hep-lat].
+
+\bibitem[Bañuls et~al.(2015)Bañuls, Cichy, Cirac, Jansen, and
+  Saito]{banuls_thermal_2015}
+M.~C. Bañuls, K.~Cichy, J.~I. Cirac, K.~Jansen, and H.~Saito.
+\newblock Thermal evolution of the {Schwinger} model with {Matrix} {Product}
+  {Operators}.
+\newblock \emph{Physical Review D}, 92\penalty0 (3):\penalty0 034519, Aug.
+  2015.
+\newblock ISSN 1550-7998, 1550-2368.
+\newblock \doi{10.1103/PhysRevD.92.034519}.
+\newblock URL \url{http://arxiv.org/abs/1505.00279}.
+\newblock arXiv:1505.00279 [hep-lat].
+
+\bibitem[Costeri et~al.(2025)Costeri, Dappiaggi, Juárez-Aubry, and
+  Singh]{costeri_hadamard_2025}
+B.~Costeri, C.~Dappiaggi, B.~A. Juárez-Aubry, and R.~D. Singh.
+\newblock The {Hadamard} parametrix on half-{Minkowski} with {Robin} boundary
+  conditions: {Fundamental} solutions and {Hadamard} states, Sept. 2025.
+\newblock URL \url{http://arxiv.org/abs/2509.26035}.
+\newblock arXiv:2509.26035 [math-ph].
+
+\bibitem[Dirac(1934)]{dirac_discussion_1934}
+P.~A.~M. Dirac.
+\newblock Discussion of the infinite distribution of electrons in the theory of
+  the positron.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 30\penalty0 (2):\penalty0 150--163, 1934.
+\newblock \doi{10.1017/S030500410001656X}.
+
+\bibitem[Fedotov et~al.(2023)Fedotov, Ilderton, Karbstein, King, Seipt, Taya,
+  and Torgrimsson]{fedotov_advances_2023}
+A.~Fedotov, A.~Ilderton, F.~Karbstein, B.~King, D.~Seipt, H.~Taya, and
+  G.~Torgrimsson.
+\newblock Advances in {QED} with intense background fields.
+\newblock \emph{Physics Reports}, 1010:\penalty0 1--138, Apr. 2023.
+\newblock ISSN 03701573.
+\newblock \doi{10.1016/j.physrep.2023.01.003}.
+\newblock URL \url{http://arxiv.org/abs/2203.00019}.
+\newblock arXiv:2203.00019 [hep-ph].
+
+\bibitem[Fewster and Verch(2013)]{fewster_necessity_2013}
+C.~J. Fewster and R.~Verch.
+\newblock The {Necessity} of the {Hadamard} {Condition}.
+\newblock \emph{Class. Quant. Grav.}, 30:\penalty0 235027, 2013.
+\newblock \doi{10.1088/0264-9381/30/23/235027}.
+\newblock \_eprint: 1307.5242.
+
+\bibitem[Heisenberg and Euler(1936)]{heisenberg_consequences_1936}
+W.~Heisenberg and H.~Euler.
+\newblock Consequences of {Dirac}'s theory of positrons.
+\newblock \emph{Z. Phys.}, 98\penalty0 (11-12):\penalty0 714--732, 1936.
+\newblock \doi{10.1007/BF01343663}.
+\newblock \_eprint: physics/0605038.
+
+\bibitem[Hollands and Wald(2001)]{hollands_local_2001}
+S.~Hollands and R.~M. Wald.
+\newblock Local {Wick} {Polynomials} and {Time} {Ordered} {Products} of
+  {Quantum} {Fields} in {Curved} {Spacetime}.
+\newblock \emph{Communications in Mathematical Physics}, 223\penalty0
+  (2):\penalty0 289--326, Oct. 2001.
+\newblock ISSN 0010-3616, 1432-0916.
+\newblock \doi{10.1007/s002200100540}.
+\newblock URL \url{http://arxiv.org/abs/gr-qc/0103074}.
+\newblock arXiv:gr-qc/0103074.
+
+\bibitem[Hollands and Wald(2015)]{hollands_quantum_2015}
+S.~Hollands and R.~M. Wald.
+\newblock Quantum fields in curved spacetime.
+\newblock \emph{Phys. Rept.}, 574:\penalty0 1--35, 2015.
+\newblock \doi{10.1016/j.physrep.2015.02.001}.
+\newblock \_eprint: 1401.2026.
+
+\bibitem[Lamb and Retherford(1947)]{lamb_fine_1947}
+W.~E. Lamb and R.~C. Retherford.
+\newblock Fine {Structure} of the {Hydrogen} {Atom} by a {Microwave} {Method}.
+\newblock \emph{Phys. Rev.}, 72:\penalty0 241--243, 1947.
+\newblock \doi{10.1103/PhysRev.72.241}.
+
+\bibitem[Mohr et~al.(1998)Mohr, Plunien, and Soff]{mohr_qed_1998}
+P.~J. Mohr, G.~Plunien, and G.~Soff.
+\newblock {QED} corrections in heavy atoms.
+\newblock \emph{Phys. Rept.}, 293\penalty0 (5-6):\penalty0 227--369, 1998.
+\newblock \doi{10.1016/s0370-1573(97)00046-x}.
+
+\bibitem[Schlemmer and Zahn(2015)]{schlemmer_current_2015}
+J.~Schlemmer and J.~Zahn.
+\newblock The current density in quantum electrodynamics in external
+  potentials.
+\newblock \emph{Annals Phys.}, 359:\penalty0 31--45, 2015.
+\newblock \doi{10.1016/j.aop.2015.04.006}.
+\newblock \_eprint: 1501.05912.
+
+\bibitem[Schwinger(1951)]{schwinger_gauge_1951}
+J.~S. Schwinger.
+\newblock On gauge invariance and vacuum polarization.
+\newblock \emph{Phys. Rev.}, 82:\penalty0 664--679, 1951.
+\newblock \doi{10.1103/PhysRev.82.664}.
+
+\bibitem[Thompson and Winstanley(2024)]{thompson_quantum-corrected_2024}
+J.~C. Thompson and E.~Winstanley.
+\newblock Quantum-corrected anti–de {Sitter} spacetime.
+\newblock \emph{Physical Review D}, 110\penalty0 (12):\penalty0 125003, Dec.
+  2024.
+\newblock ISSN 2470-0010, 2470-0029.
+\newblock \doi{10.1103/PhysRevD.110.125003}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.110.125003}.
+
+\bibitem[Uehling(1935)]{uehling_polarization_1935}
+E.~A. Uehling.
+\newblock Polarization effects in the positron theory.
+\newblock \emph{Phys. Rev.}, 48:\penalty0 55--63, 1935.
+\newblock \doi{10.1103/PhysRev.48.55}.
+
+\bibitem[Wald(1977)]{wald_back_1977}
+R.~M. Wald.
+\newblock The {Back} {Reaction} {Effect} in {Particle} {Creation} in {Curved}
+  {Space}-{Time}.
+\newblock \emph{Commun. Math. Phys.}, 54:\penalty0 1--19, 1977.
+\newblock \doi{10.1007/BF01609833}.
+
+\bibitem[Wernersson and Zahn(2021)]{wernersson_vacuum_2021}
+J.~Wernersson and J.~Zahn.
+\newblock Vacuum polarization near boundaries.
+\newblock \emph{Phys. Rev. D}, 103\penalty0 (1):\penalty0 016012, 2021.
+\newblock \doi{10.1103/PhysRevD.103.016012}.
+\newblock \_eprint: 2010.05499.
+
+\end{thebibliography}

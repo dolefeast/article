@@ -1,55 +1,80 @@
 \section{Results}%
 \label{sec:Results}
 
-\begin{figure}[p]
+
+
+
+%     \caption{Top left panel: Energy of the three first modes of the massless
+%     Klein-Gordon field with Dirichlet boundary conditions
+%     corresponding to different values of the dimensionless backgroud electric
+%     field strength $\lambda.$ In blue, the self-consistent mode energies
+%     $\omega_{n,\lambda}^{\infty}$. For reference, the energies of the lower
+%     modes in the External Field Approximation is shown. Top right panel:
+%     Corresponding induced charge $Q_I$ as a function of $\lambda$.
+%     Bottom left panel:
+%     Massive $(m=1)$ Klein-Gordon field with NBC
+%     corresponding to different values of the dimensionless backgroud
+%     electric field strength $\lambda.$ In blue, the energies
+%     $\omega_{n,\lambda}^{\infty}$ of the self-consistent solutions to the
+%     Klein-Gordon-Maxwell equations. Bottom right panel: The induced charge for
+%     said configuration.
+% }
+
+Using the iterative procedure above laid out we study two particular cases: The massless scalar field subject to DBC, and  $m=1$ with
+the scalar field subject to NBC. We do not study the massless field subject to NBC, since under these boundary conditions, $\lambda_c=0$ for $m=0$, as pointed out in Ref.~\cite{wernersson_vacuum_2021}.
+
+Figures~\ref{fig:main-results-dirichlet} and \ref{fig:main-results-neumann}  display the dynamics of the coupled Klein-Gordon-Maxwell system in the semiclassical approximation. The external field approximation is given for reference in orange. Notice the different $\lambda$ scales. The system is studied through the energies of the first modes (top panel), the induced charge $Q_I$  in the region $z\in[0,0.5]$ (middle panel) and the total electric field $\lambda+Q_I$ at the midpoint $z=0.5$ (bottom panel). We observe in both cases how considering backreaction avoids the instabilities reflected in $Q_I\to-\infty$ that the external field approximation presents. Indeed, the energy of the lower modes is raised which "prevents" $\omega_1$ from crossing 0. We also point the reader to notice how the rapid growth of $|Q_I|$ as $\lambda$ crosses $\lambda_c$ keeps $\lambda + Q_I$ below $\lambda_c$. 
+
+One might also notice the almost identical behavior of the self-consistent solutions to the
+external field approximation in the weak-field regime $\lambda \ll {\lambda_c}$ in both cases. 
+
+
+\begin{figure}
     \centering
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Figures/dirichlet/eigenvalues.pdf}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Figures/dirichlet/inducedCharge.pdf}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Figures/neumann/eigenvalues.pdf}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Figures/neumann/inducedCharge.pdf}
-    \end{subfigure}
-    \caption{Top left panel: Energy of the three first modes of the massless
-    Klein-Gordon field with Dirichlet boundary conditions
-    corresponding to different values of the dimensionless backgroud electric
-    field strength $\lambda.$ In blue, the self-consistent mode energies
-    $\omega_{n,\lambda}^{\infty}$. For reference, the energies of the lower
-    modes in the External Field Approximation is shown. Top right panel:
-    Corresponding induced charge $Q_I$ as a function of $\lambda$.
-    Bottom left panel:
-    Massive $(m=1)$ Klein-Gordon field with Neumann boundary conditions
-    corresponding to different values of the dimensionless backgroud
-    electric field strength $\lambda.$ In blue, the energies
-    $\omega_{n,\lambda}^{\infty}$ of the self-consistent solutions to the
-    Klein-Gordon-Maxwell equations. Bottom right panel: The induced charge for
-    said configuration.
-}
-    \label{fig:self-consistent-eigenvalues}
+        \begin{subfigure}{0.5\textwidth}
+            \includegraphics[width=\textwidth]{Figures/dirichlet/eigenvalues.pdf}
+        \end{subfigure}
+        
+                \begin{subfigure}{0.5\textwidth}
+            \includegraphics[width=\textwidth]{Figures/dirichlet/inducedCharge.pdf}
+        \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+            \includegraphics[width=\textwidth]{Figures/dirichlet/electricFieldInduced.pdf}
+        \end{subfigure}
+        \caption{
+            In blue, the self-consistent solutions to the coupled semi-classical Klein-Gordon-Maxwell system for a massless scalar field subject to DBC. In orange, for reference, the external field approximation is given. Top panel: Energies of the first three modes as functions of $\lambda$. Middle panel: Corresponding $Q_I$ for each $\lambda$. Bottom panel: Total electric field $\lambda+Q_I$ due to the screening of the vacuum at $z=\frac{1}{2}$. 
+        }
+        \label{fig:main-results-dirichlet}
 \end{figure}
 
-We use the iterative procedure laid out in  
-Sec.~\ref{sec:The-iterative-procedure} to study the interaction between the
-scalar field and the background electric field for two particular cases, $m=0$
-with the scalar field subject to Dirichlet boundary conditions, and $m=1$ with
-the scalar field subject to Neumann boundary conditions, as there are no
-massless solutions to the Klein-Gordon equation with Neumann boundary
-conditions.
+\begin{figure}
+    \centering
+        \begin{subfigure}{0.5\textwidth}
+            \includegraphics[width=\textwidth]{Figures/neumann/eigenvalues.pdf}
+        \end{subfigure}
+                \begin{subfigure}{0.5\textwidth}
+            \includegraphics[width=\textwidth]{Figures/neumann/inducedCharge.pdf}
+        \end{subfigure}
+            \begin{subfigure}{0.5\textwidth}
+            \includegraphics[width=\textwidth]{Figures/neumann/electricFieldInduced.pdf}
+        \end{subfigure}
+        \caption{Following the format in Fig.~\ref{fig:main-results-dirichlet}, the results for the unit mass scalar field subject to NBC. Further details in main text.}
+        \label{fig:main-results-neumann}
+\end{figure}
 
-Fig.~\ref{fig:self-consistent-eigenvalues} displays the evolution of the
-self-consistent mode energies of the mentioned cases as described in the
-caption in blue, and compares it with the external field approximation, in
-orange. Following a similar format, the self-consistent induced charge $Q_I$ is
-shown, and in orange the reference for the external field approximation.
+\subsection{Mode sum formula}
 
-Notice the almost identical behavior of the self-consistent solutions to the
-external field approximation for $\lambda \ll {\lambda_c}$ in both cases. For
-$\lambda \gtrsim \lambda_c$, the inclusion of backreaction raises the energy of
-the Klein-Gordon field and avoids the instabilities ($\omega_n \to 0$, $\lvert
-Q_I\rvert \to \infty$) that the external field approximation presented.
 
+
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{Figures/dirichlet/inducedChargeComparison.pdf}
+    \caption{$Q_I$ for the self-consistent solutions for a massless field subject to DBC, by using different expressions for $\rho$. In blue, the (correct) vacuum polarization obtained through renormalization through point-splitting w.r.t. a Hadamard parametrix, and in orange the vacuum polarization obtained through a mode sum formula truncated to one mode used in \cite{ambjorn_properties_1983}.}
+    \label{fig:hambjorn-iterative}
+\end{figure}
+
+
+Fig.~\ref{fig:hambjorn-iterative} displays $Q_I$ in the iterative procedure as a function of $\lambda$ for two different prescriptions for $\rho$. In blue, the correct prescription used throughout this paper. In orange, $\rho$ as defined in \cite{ambjorn_properties_1983}, truncated to the first mode. Notice the different behaviors in the two regimes: although the truncated mode sum formula presents a noticeably stronger vacuum polarization in the weak-field regime, their strong-field behavior is very similar. A possible explanation is the fact that the main contribution to vacuum polarization comes from the first modes, which are of course those with less energy. Thus, in strong-field regime the main contribution to \eqref{eq:vacuum-polarization-long} comes from the first modes, and rendering a truncation to first modes a very good approximation.

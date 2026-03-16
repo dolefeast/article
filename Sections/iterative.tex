@@ -1,0 +1,86 @@
+\section{Self-consistent fields}
+\label{sec:The-iterative-procedure}
+
+The effect of the backreaction of the scalar field to the background
+electromagnetic field is studied by an iterative procedure. 
+For each value of $\lambda$, at each iteration $\kappa$, one computes the following
+\begin{subequations}
+   \label{eq:iterative-procedure}
+\begin{align}
+    \frac{d {^2}\phi_{n, \lambda}^{\kappa}}{d {z^2}} {}  &= 
+    -\left[ (\omega_{n, \lambda}^\kappa - \varepsilon A^{\kappa -1 }_{0, \lambda} )^2 
+     - a^2 m^2\right] \phi_{n, \lambda}^{\kappa}, 
+    \label{eq:mode-equation-iterative}
+    \\
+\begin{split}
+        \rho_\lambda^{\kappa} &= \lim_{\tau \to 0} \Big[\sum_{n>0}^{} (\omega_{n,
+        \lambda}^\kappa - \varepsilon A_{0, \lambda}^{\kappa-1} )\lvert \phi_{n,
+        \lambda}^\kappa\rvert^2 e^{-i\omega^\kappa_{n, \lambda} \tau}\\
+        &+\sum_{n<0}^{} (\omega^{\kappa}_{n, \lambda} - \varepsilon
+        A_{0, \lambda}^{\kappa-1}) \lvert \phi^\kappa_{n, \lambda}\rvert^2
+    e^{i\omega^{\kappa}_{n, \lambda} \tau}\Big] \\
+    &+
+    \frac{\varepsilon^2}{\pi}    A_{0, \lambda}^{\kappa-1} ,
+\end{split}
+\label{eq:vacuum-polarization-iterative}\\
+\begin{split}
+        A^{\kappa }_{0, \lambda} &= c A_{0, \lambda}^{\kappa-1} \\&+ \left(1-c
+        \right)\left[ -\lambda\left(z - \frac{1}{2} \right) -
+            \int_{\frac{1}{2}}^{z} \int_{0}^{\chi} \rho_\lambda^{\kappa}(\xi) d\xi d\chi
+             \right] .
+\end{split}
+        \label{eq:A0-general-iterative}
+\end{align}
+\end{subequations}
+This procedure has two main differences from the one used in \cite{ambjorn_properties_1983}: the expression for the vacuum polarization, and the $c<1$ prescription in Eq.~\eqref{eq:A0-general-iterative}.
+The details on how $\rho$ is calculated are explained in Appendix~\ref{sec:Computing-the-vacuum-polarization}. Initial conditions of this procedure are discussed below.
+
+Noticing how Eq.~\eqref{eq:A0-general-iterative} acts as an update function  on $A_{0,\lambda}^{\kappa-1}$, we write this scheme as an infinite dimensional fixed point problem. This is, for each $\lambda$, we look for the fixed point $A_{0, \lambda}$ obeying
+\begin{align}
+    A_{0, \lambda} = f_\lambda(A_{0, \lambda}),
+    \label{eq:fixed-point-problem}
+\end{align}
+with $f_\lambda$ given by the composition of steps \eqref{eq:mode-equation-iterative}, \eqref{eq:vacuum-polarization-iterative} and \eqref{eq:A0-general-iterative}. 
+The fixed points of $f_\lambda$, denominated ``self-consistent solutions", are looked for by studying the limit $A_{0,\lambda}=\lim_{\kappa\to \infty}A_{0,\lambda}^{\kappa}$, where 
+\begin{align}
+    A_{0,\lambda}^{\kappa + 1} = f_\lambda(A_{0,\lambda}^{\kappa}) =
+    f_\lambda^{\kappa}\left(A_{0, \lambda}^{0} \right), \textrm{with } f_\lambda^\kappa =
+    \underbrace{f_\lambda \circ ... \circ f_\lambda}_{k \textrm{ times}}.
+    \label{eq:self-consistent-limit}
+\end{align}
+If the limit $A_{0, \lambda}$ exists, it is given the name
+self-consistent potential, as well as the corresponding self-consistent vacuum
+polarization $\rho_{\lambda}$, field modes $\phi_{n,
+\lambda}$ and mode energies $\omega_{n, \lambda}$.
+
+For low enough $\lambda\ll \lambda_c$, the initial value of the sequence $A_{0,
+\lambda}^0$  can be set to the external field approximation $A_{0,
+\lambda}^0(z) = -\lambda \left(z- \frac{1}{2}\right).$ This is, however,  no longer a valid initial potential for stronger background fields,  as it leads to non-convergences in the sequence $ A_{0, \lambda}^{\kappa}$. This is discussed in the Appendix ??(to be added). For higher $\lambda$-values,
+$A_{0, \lambda}^{0}$ is instead set by a stored previously calculated self-consistent
+potential $A_{0, \lambda'}$ with $\lambda = \lambda' + \Delta
+\lambda$, where $\Delta \lambda > 0$. We use this scheme to probe the $\lambda$-parameter space.
+
+
+
+Finally, in Eq.~\eqref{eq:A0-general-iterative}, $c\in [0, 1]$ is introduced in order to ``relax" the procedure: For
+$c=0$, the procedure is precisely the one used in~\cite[]{ambjorn_properties_1983}, and it is expected to quickly converge. For
+$c$ close to 1, updates will be small corrections to the previous potential.
+%This avoids certain numerical instabilities appearing in the strong-field regime $\lambda \gtrsim \lambda_c$. 
+Stronger background field strengths increase the instability of the coupled system, thus increasing the relevance of slower converge schemes. 
+Considering this, we adopt a scheme in which, as $\lambda$ increases, $c$ increases and simultaneously $\Delta \lambda$ decreases.
+
+%The mode subindices have been removed to avoid notation clutter.
+%The iterative procedure is schematized in Fig.~\ref{fig:iterative-procedure},
+%and it studies $\lim_{\kappa \to \infty} A_\lambda^\kappa $ for each $\lambda$.
+%If the limit exists, it defines the self-consistent potential
+%$A^{\infty}_\lambda$. Additionally, every other relevant quantity
+%$\rho^\infty_\lambda, \omega_\lambda^{\infty}, \text{ and } \phi_\lambda
+%^{\infty}$ also acquire the adjective ``self-consistent".
+
+\input{Figures/iterativeLoop.tex}
+
+%For a low $\lambda\ll \lambda_c$, the initial potential $A_\lambda^{0} = -\lambda
+%\left(z-\frac{1}{2}\right)$ is given by the external field approximation. For
+%higher values of $\lambda$, $A_\lambda^{0}$ is given by an already calculated
+%self-consistent $A_{\lambda'}^{\infty}$, with $\lambda = \lambda' + \Delta
+%\lambda$, for $\Delta \lambda > 0 $. 

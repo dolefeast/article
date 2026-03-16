@@ -1,6 +1,6 @@
-\documentclass{article}
+\documentclass[twocolumn]{paper}
 
-\usepackage[width = 16cm]{geometry}
+\usepackage[width = 17cm]{geometry}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning}
 \usepackage{graphicx}
@@ -32,11 +32,17 @@
 \makeatletter
 \maketitle
 
+\begin{abstract}
+    In this article...
+\end{abstract}
+
 \tableofcontents
 
+\input{Sections/introduction.tex}
 \input{Sections/methodology.tex}
-\input{Sections/Vacuum Polarization.tex}
+\input{Sections/iterative.tex}
 \input{Sections/results.tex}
+\input{Sections/conclusions.tex}
 
 \appendix
 \input{Appendices/vacuum-polarization.tex}
