@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}Set up}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Field modes}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}External Field Approximation and Critical Field Strength}{4}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Self-consistent fields}{4}{section.3}%
-\contentsline {section}{\numberline {4}Results}{5}{section.4}%
+\contentsline {subsection}{\numberline {2.3}Mode sum formula}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Self-consistent fields}{5}{section.3}%
+\contentsline {section}{\numberline {4}Results}{6}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Mode sum formula}{6}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Discussion and outlook}{6}{section.5}%
-\contentsline {section}{\numberline {A}Mode sum formula}{7}{appendix.A}%
-\contentsline {section}{\numberline {B}Computing the vacuum polarization}{8}{appendix.B}%
+\contentsline {section}{\numberline {5}Discussion and outlook}{8}{section.5}%
+\contentsline {section}{\numberline {A}Computing the vacuum polarization}{8}{appendix.A}%

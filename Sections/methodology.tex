@@ -95,7 +95,7 @@ the vacuum state $\ket{0}$ as that for which $a \ket{0} = b\ket{0} = 0$. Note th
 
 As mentioned above, the definition of quantities such as $\rho$ \textemdash Wick polynomials\textemdash is problematic, since it involves the product of local observables 
 evaluated at coinciding spacetime points (see Eq.~\eqref{eq:charge-current-density}).
-To define such polynomials, one assumes that the states of a field $\phi$ are Hadamard, i.e.~they have a similar short-distance behavior to the vacuum of  $\phi$ in absence of background fields, and are assumed to be the only physically relevant states~\cite{fewster_necessity_2013}. Under this assumption, the divergence of such states is state independenent and locally constructed from the background fields. Since $\phi$ is coupled to the background field through the covariant derivative, one may use the setup at hand as a toy model for semi-classical gravity, a possible first step towards an elusive quantum theory of gravity.
+To define such polynomials, one assumes that the states of a field $\phi$ are Hadamard, i.e.~they have a similar short-distance behavior to the vacuum of  $\phi$ in absence of background fields, and are assumed to be the only physically relevant states~\cite{fewster_necessity_2013}. Under this assumption, the divergence of such states is state independenent and locally constructed from the background fields. Since $\phi$ is coupled to the background field through the covariant derivative, one may use the setup at hand as a toy model for semiclassical gravity, a possible first step towards an elusive quantum theory of gravity.
 
 Specifically, one says that the two point function  $w_{\Omega}^{\phi \phi^*}(x, x') = \braket{\Omega | \phi (x)\phi^* (x')| \Omega} $ of the scalar field $\phi$ in
 a Hadamard state $\Omega$  is of the form
@@ -218,14 +218,39 @@ The value at which $\omega_1$ goes to $0$ defines the critical field strength $\
 %$\lambda>\lambda_c$, some frequencies $\omega_n$ turn complex, which
 %from the single frequency ansatz leads to runaway solutions.
 %
-\cite[]{ambjorn_properties_1983} claims that the 
-backreaction of $\phi$ to the background electric field avoids these instabilities. However, the expression used therein
-for the vacuum polarization cannot be derived from gauge invariant renormalization schemes; one should rather use the
-prescription described in~\cite[]{wernersson_vacuum_2021}. Their qualitative discrepancies are detailed in Appendix~\ref{sec:mode-sum-formula}. This article
-answers the following question: does considering the backreaction
-using the correct prescription for the vacuum polarization avoid the
-instabilities that would otherwise be present?
 
+
+\subsection{Mode sum formula}
+\label{sec:mode-sum-formula}
+Vacuum polarization in \cite{ambjorn_properties_1983} is defined through a so-called mode sum formula. It pairs the charge density associated to each mode as
+\begin{align}
+    \rho_n = (\omega_n-\varepsilon A_0)\lvert \phi_n \rvert^2  -(\omega_n+\varepsilon A_0)\lvert \phi_{-n} \rvert^2.
+    \label{eq:mode-charge-density}
+\end{align}
+to define the vacuum polarization 
+\begin{align}
+\begin{split}
+        \rho^\text{MS} &= \sum_{n>0}^{} \rho_n \\&= \sum_{n>0}^{}\big[(\omega_n-\varepsilon A_0)\lvert \phi_n \rvert^2
+    - ( \omega_n +\varepsilon A_0) \lvert\phi_{-n}\rvert^2
+    \big],
+\end{split}
+    \label{eq:mode-sum}    
+\end{align}
+where the superscript MS is introduced to differentiate it from the correct prescription $\rho$.
+% The above expression cannot be obtained from a manifestly gauge invariant renormalization scheme, and also relies on a specific pairing of the modes in the series to be convergent. 
+The above expression cannot be derived from a manifestly gauge invariant renormalization scheme, and it relies on the specific pairing of modes to be well-defined. 
+Furthermore, in the iterative procedure discussed above,~\cite{ambjorn_properties_1983} truncates the mode sum to $\rho^\text{MS} \approx \rho_1$. It is however worth pointing the reader that Eq.~\eqref{eq:vacuum-polarization-long} is effectively a mode sum formula with the additional $\frac{\varepsilon^2}{\pi}A_0$ term, as discussed in  Appendix~\ref{sec:Computing-the-vacuum-polarization}. 
+
+Fig.~\ref{fig:hambjorn} shows different charge densities arising from the different $\rho$ prescriptions, for the massless scalar field subject to DBC. The same $\phi_n$, $\omega_n$ and \linebreak$A_0(z) = -(z-\frac{1}{2})$ have been used for the different $\rho$. In blue, the vacuum polarization used in the computations throughout this paper, in orange the vacuum polarization arising from the mode pairing and in red the one used for the iterative procedure in \cite{ambjorn_properties_1983}. 
+Notice the non-zero vacuum polarization at the boundaries for Eq.~\eqref{eq:mode-sum}, which the reader might find surprising to find in a field subject to DBC. This is an artifact of the missing $\frac{\varepsilon^2}{\pi}A_0$ term in Eq.~\eqref{eq:mode-sum}. 
+
+We observe that $\rho$ is significantly `weaker' than the one used by \cite{ambjorn_properties_1983}, where it was seen that the screening due to $\rho^{\text{MS}}$ avoids the instabilities appearing in the external field approximation. This motivates the question answered in this paper: Does considering the correct vacuum polarization $\rho$ also avoid these instabilities?
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{Figures/dirichlet/hambjorn.pdf}
+    \caption{Three different $\rho$ for the same massless scalar field subject to DBC resulting from\linebreak$A_0 = -(z - \frac{1}{2})$ : In blue, the correct prescription in Eq.~\eqref{eq:vacuum-polarization-long} used throughout this paper. In orange, $\rho$ calculated through the mode sum \eqref{eq:mode-sum}. In red, $\rho$ defined through the mode sum formula, truncated to the first mode. }
+    \label{fig:hambjorn}
+\end{figure}
 
 %Fig.~\ref{fig:eigenvalues-external-field-approximation} displays the
 %energy of the first three modes of the massless Klein-Gordon field with
