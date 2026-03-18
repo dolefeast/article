@@ -1,7 +1,7 @@
 \section{Computing the vacuum polarization}
 \label{sec:Computing-the-vacuum-polarization}
 
-To be able to compute Eq.~\eqref{eq:vacuum-polarization-long}, some rearrangements are to be done. By use of $-\omega_n = \omega_{-n}$, $\rho$ can be expressed as a single sum
+Since in the chosen gauge $\omega_n = -\omega_{-n}$, the two series can be combined into
 \begin{align}
 \begin{split}
         \rho &= \lim_{\tau \to 0} 
@@ -11,10 +11,12 @@ To be able to compute Eq.~\eqref{eq:vacuum-polarization-long}, some rearrangemen
             \\
             &- (\omega_n + \varepsilon A_0) \lvert \phi_{-n}\rvert^2
         \Big]e^{-i\omega_n \tau}
-+ \frac{\varepsilon^2}{\pi} A_0 (z)
++ \frac{\varepsilon^2}{\pi} A_0 (z).
 \end{split}
 \end{align}
-In general, the limit and the sum do not commute. In order for them to commute, the coefficients of the complex exponentials need to decay fast enough, in order for the series to be absolutely convergent. After  commuting, the sum is cut off at some finite mode $N$, which induces oscillations of frequency $\Delta z = \frac{1}{N+1}$. These oscillations are an artifact of the cut off, which must be smoothened out by a low-pass filter.
+If the absolute value of the terms decays fast enough with $n$, the limit and the sum can be exchanged\footnote{It might be alerting that the resulting expression is gauge dependent, but so is }
+
+The limit and the sum do not commute. In order for them to commute, the coefficients of the complex exponentials need to decay fast enough, in order for the series to be absolutely convergent. After  commuting, the sum is cut off at some finite mode $N$, which induces oscillations of frequency $\Delta z = \frac{1}{N+1}$. These oscillations are an artifact of the cut off, which must be smoothened out by a low-pass filter.
 
 
 \begin{figure}[t]

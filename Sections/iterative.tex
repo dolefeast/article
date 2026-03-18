@@ -57,21 +57,22 @@ self-consistent potential, as well as the corresponding self-consistent vacuum
 polarization $\rho_{\lambda}$, field modes $\phi_{n,
 \lambda}$ and mode energies $\omega_{n, \lambda}$.
 
-For low enough $\lambda\ll \lambda_c$, the initial value of the sequence $A_{0,
-\lambda}^0$  can be set to the external field approximation $A_{0,
-\lambda}^0(z) = -\lambda \left(z- \frac{1}{2}\right).$ This is, however,  no longer a valid initial potential for stronger background fields,  as it leads to non-convergences in the sequence $ A_{0, \lambda}^{\kappa}$. This is discussed in the Appendix ??(to be added). For higher $\lambda$-values,
-$A_{0, \lambda}^{0}$ is instead set by a stored previously calculated self-consistent
-potential $A_{0, \lambda'}$ with $\lambda = \lambda' + \Delta
-\lambda$, where $\Delta \lambda > 0$. We use this scheme to probe the $\lambda$-parameter space.
-
+For low enough $\lambda\ll \lambda_c$, the initial value  $A_{0,
+\lambda}^0$  can be set to the external field approximation \linebreak $A_{0,
+\lambda}^0(z) = -\lambda \left(z- \frac{1}{2}\right).$ In the strong-field regime, this is no longer a valid initial condition, due to numerical instabilities appearing for $\lambda>\lambda_c$. This is discussed in the Appendix \ref{sec:convergence}. A numerical continuation method is used to traverse the $\lambda$-parameter:
+\begin{enumerate}
+    \item Assume a self-consistent $A_{0,\lambda}^\infty$ is known.
+    \item Choose an increment $\Delta \lambda>0$, which defines a candidate $\lambda_{\text{new}} = \lambda + \Delta \lambda$.
+    \item Perform the iterative procedure with the initial condition $$A_{0, \lambda_{\text{new}}}^0 = A_{0, \lambda}^\infty.$$
+    \item If this sequence converges, store the $\lambda$ and self-consistent fields, and proceed from step 2. If it fails, reduce $\Delta \lambda$, and proceed from step 1.  
+\end{enumerate}
 
 
 Finally, in Eq.~\eqref{eq:A0-general-iterative}, $c\in [0, 1]$ is introduced in order to avoid an overshooting of the potential: For
 $c=0$, the procedure is precisely the one used in~\cite[]{ambjorn_properties_1983}, and it is expected to quickly converge. For
 $c$ close to 1, updates will be small corrections to the previous potential.
 %This avoids certain numerical instabilities appearing in the strong-field regime $\lambda \gtrsim \lambda_c$. 
-Stronger background field strengths increase the instability of the coupled system, thus increasing the relevance of slower converge schemes. 
-Considering this, we adopt a scheme in which, as $\lambda$ increases, $c$ increases and simultaneously $\Delta \lambda$ decreases.
+
 
 %The mode subindices have been removed to avoid notation clutter.
 %The iterative procedure is schematized in Fig.~\ref{fig:iterative-procedure},

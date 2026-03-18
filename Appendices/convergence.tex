@@ -1,0 +1,35 @@
+\section{Convergence of the self-consistent fields}
+\label{sec:convergence}
+
+
+\begin{figure}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf}
+    \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/convergence/eigenvalues_lambda_17.599999999999998_dirichlet.pdf}
+    \end{subfigure}
+        \caption{$\omega_1$ of the massless scalar field with DBC for different values of $\lambda$ as a function of the iteration $\kappa$.}        \label{fig:convergence}
+
+\end{figure}
+
+The iterative procedure either
+    converges,
+    oscillates, or
+    the appearance of complex $\omega$ cuts the sequence short.
+    
+A case where the sequence convergences, and oscillates is displayed in Fig.~\ref{fig:convergence}  in the top,  and bottom panel, respectively. We measure convergence in the frequency of the lowest mode $\omega_\lambda^\kappa$.
+These convergence cases can be understood from the perspective of fixed-point theory. For brevity, we invite the reader to find the fixed points of the $\mathbb{R}\rightarrow \mathbb{R}$ functions $\frac{3}{4}-\frac{x}{2}, 1-x$ to see how the slope of the function affects convergence. The parameter $c$ in Eq.~\eqref{eq:A0-general-iterative} allows us to control this slope in order to ensure convergence.
+
+
+Complex $\omega$ might appear if the candidate $\lambda +\Delta \lambda $ in the numerical continuation method is too far away from $\lambda$. The screening due to $\rho_\lambda$  is ``too weak'' compared to $A_{0, \lambda+\Delta \lambda}^1$, which makes the system effectively behave as in the external field approximation with $\lambda>\lambda_c$.
+
+
+% \begin{subfigure}{0.5\textwidth}
+%     \centering
+%     \includegraphics[width=\textwidth]{subfigures/convergence/eigenvalues_lambda_12_dirichlet.pdf}
+%     \caption{$\omega_1$ of the massless scalar field with DBC for $\lambda=12$ (weak-field regime) as a function of the iteration $\kappa.$  }
+%     \label{fig:weak-field}
+% \end{subfigure}
