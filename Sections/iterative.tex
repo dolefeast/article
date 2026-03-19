@@ -37,14 +37,13 @@ More precisely, for each value of $\lambda$ and at each iteration $\kappa$, we c
 \input{Figures/iterativeLoop.tex}
 
 This procedure has two main differences from the one used in \cite{ambjorn_properties_1983}: the expression for the vacuum polarization, and the $c<1$ prescription in Eq.~\eqref{eq:A0-general-iterative}, which is discussed below.
-The details on how $\rho$ is calculated are explained in Appendix~\ref{sec:Computing-the-vacuum-polarization}. Initial conditions of this procedure are discussed below.
 
-Noticing how Eq.~\eqref{eq:A0-general-iterative} acts as an update function  on $A_{0,\lambda}^{\kappa-1}$, we write this scheme as an infinite dimensional fixed point problem. This is, for each $\lambda$, we look for the fixed point $A_{0, \lambda}$ obeying
+Interpreting Eq. \eqref{eq:A0-general-iterative} as an update map on $A_{0,\lambda}^{\kappa-1}$, we identify the iterative scheme with an infinite-dimensional fixed-point problem. That is, for each $\lambda$, we seek $A_{0,\lambda}$ such that
 \begin{align}
-    A_{0, \lambda} = f_\lambda(A_{0, \lambda}),
-    \label{eq:fixed-point-problem}
+A_{0,\lambda} = f_\lambda(A_{0,\lambda}),
+\label{eq:fixed-point-problem}
 \end{align}
-with $f_\lambda$ given by the composition of steps \eqref{eq:mode-equation-iterative}, \eqref{eq:vacuum-polarization-iterative} and \eqref{eq:A0-general-iterative}. 
+with $f_\lambda$ given by the composition of steps \eqref{eq:mode-equation-iterative}, \eqref{eq:vacuum-polarization-iterative} and \eqref{eq:A0-general-iterative}.
 The fixed points of $f_\lambda$, denominated ``self-consistent solutions", are looked for by studying the limit $A_{0,\lambda}=\lim_{\kappa\to \infty}A_{0,\lambda}^{\kappa}$, where 
 \begin{align}
     A_{0,\lambda}^{\kappa + 1} = f_\lambda(A_{0,\lambda}^{\kappa}) =

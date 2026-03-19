@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1773852753 "main.aux" "main.bbl" "main" 1773852869
+["bibtex main"] 1773911521 "main.aux" "main.bbl" "main" 1773911748
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/abbrvnat.bst" 1233624470 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
-  "main.aux" 1773852868 13035 8a2487d9110bf81876577aa47bb28f79 "pdflatex"
+  "main.aux" 1773911748 13047 f4cc33f73113c81c8b22cb61162a03c5 "pdflatex"
   "main.bib" 1770293924 140680 3663c979def954bbdd7045d2d779c0a6 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1773852868 "/home/investigator/Projects/Vacuum Polarization/article/main.tex" "main.pdf" "main" 1773852869
+["pdflatex"] 1773911748 "/home/investigator/Projects/Vacuum Polarization/article/main.tex" "main.pdf" "main" 1773911748
   "/etc/texmf/web2c/texmf.cnf" 1771588622 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/investigator/Projects/Vacuum Polarization/article/main.tex" 1773852868 2245 93b1c81357f437a9ebbd4e0389632363 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -215,14 +215,14 @@
   "Figures/neumann/inducedCharge.pdf" 1770390524 165482 d3c66f12e7c8f8478e072a14329ac6a6 ""
   "Sections/conclusions.tex" 1773851261 2724 5a22e30c1bb7877608ea51b96926e313 ""
   "Sections/introduction.tex" 1773753167 3640 673694cc7af34a49a3c6496efcfa9500 ""
-  "Sections/iterative.tex" 1773767281 5854 18f742f8250050c90ede3c817192a2e2 ""
-  "Sections/methodology.tex" 1773845685 15879 c682be1ae4905beba1b178c041eb6367 ""
-  "Sections/results.tex" 1773753123 5729 7a6e0cd26a4dfd46bf5a7e002127d380 ""
-  "main.aux" 1773852868 13035 8a2487d9110bf81876577aa47bb28f79 "pdflatex"
-  "main.bbl" 1773852753 5048 a78553aded956d501b50488a49c6e090 "bibtex main"
-  "main.out" 1773852868 1590 e663e63173a81caf85b668bf6dc00e2d "pdflatex"
+  "Sections/iterative.tex" 1773911391 5658 0863b8fe2e44fd5f7fd6565fe6a8b263 ""
+  "Sections/methodology.tex" 1773854028 15632 829a6763f997f8bf35b77ab9da6f5f71 ""
+  "Sections/results.tex" 1773911747 5769 f27dd3ae7d2935dac392c9f5e02780c1 ""
+  "main.aux" 1773911748 13047 f4cc33f73113c81c8b22cb61162a03c5 "pdflatex"
+  "main.bbl" 1773911522 5048 a78553aded956d501b50488a49c6e090 "bibtex main"
+  "main.out" 1773911748 1590 e663e63173a81caf85b668bf6dc00e2d "pdflatex"
   "main.tex" 1773852868 2245 93b1c81357f437a9ebbd4e0389632363 ""
-  "main.toc" 1773852868 840 f95a167b0a080cabe893e3d0dab476de "pdflatex"
+  "main.toc" 1773911748 840 f95a167b0a080cabe893e3d0dab476de "pdflatex"
   (generated)
   "main.aux"
   "main.log"
