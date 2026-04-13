@@ -1,121 +1,691 @@
-\begin{thebibliography}{15}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Ambjorn and Wolfram(1983)]{ambjorn_properties_1983}
-J.~Ambjorn and S.~Wolfram.
-\newblock Properties of the {Vacuum}. 2. {Electrodynamic}.
-\newblock \emph{Annals Phys.}, 147:\penalty0 33, 1983.
-\newblock \doi{10.1016/0003-4916(83)90066-0}.
 
-\bibitem[Costeri et~al.(2025)Costeri, Dappiaggi, Juárez-Aubry, and
-  Singh]{costeri_hadamard_2025}
-B.~Costeri, C.~Dappiaggi, B.~A. Juárez-Aubry, and R.~D. Singh.
-\newblock The {Hadamard} parametrix on half-{Minkowski} with {Robin} boundary
-  conditions: {Fundamental} solutions and {Hadamard} states, Sept. 2025.
-\newblock URL \url{http://arxiv.org/abs/2509.26035}.
-\newblock arXiv:2509.26035 [math-ph].
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{ambjorn_properties_1983}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9b1410ad93aa0c177b6d660d9f6fc23c}{%
+           family={Ambjorn},
+           familyi={A\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc7f119c141fbcc7810a4b3a86f599db}{%
+           family={Wolfram},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{17ba03d11bf3d12c23c2536197d52fe2}
+      \strng{fullhash}{17ba03d11bf3d12c23c2536197d52fe2}
+      \strng{bibnamehash}{17ba03d11bf3d12c23c2536197d52fe2}
+      \strng{authorbibnamehash}{17ba03d11bf3d12c23c2536197d52fe2}
+      \strng{authornamehash}{17ba03d11bf3d12c23c2536197d52fe2}
+      \strng{authorfullhash}{17ba03d11bf3d12c23c2536197d52fe2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals Phys.}
+      \field{title}{Properties of the {Vacuum}. 2. {Electrodynamic}}
+      \field{volume}{147}
+      \field{year}{1983}
+      \field{pages}{33}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/0003-4916(83)90066-0
+      \endverb
+    \endentry
+    \entry{banachOperationsDansEnsembles1922}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4f7d48e46d9fd2124f5634f8843e0811}{%
+           family={Banach},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f7d48e46d9fd2124f5634f8843e0811}
+      \strng{fullhash}{4f7d48e46d9fd2124f5634f8843e0811}
+      \strng{bibnamehash}{4f7d48e46d9fd2124f5634f8843e0811}
+      \strng{authorbibnamehash}{4f7d48e46d9fd2124f5634f8843e0811}
+      \strng{authornamehash}{4f7d48e46d9fd2124f5634f8843e0811}
+      \strng{authorfullhash}{4f7d48e46d9fd2124f5634f8843e0811}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Semantic Scholar extracted view of "Sur les opérations dans les ensembles abstraits et leur application aux équations intégrales" by S. Banach}
+      \field{issn}{0016-2736, 1730-6329}
+      \field{journaltitle}{Fundamenta Mathematicae}
+      \field{langid}{english}
+      \field{shortjournal}{Fund. Math.}
+      \field{title}{Sur Les Opérations Dans Les Ensembles Abstraits et Leur Application Aux Équations Intégrales}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{1922}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{133\bibrangedash 181}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.4064/fm-3-1-133-181
+      \endverb
+      \verb{file}
+      \verb /home/investigator/Zotero/storage/VRWTSUJP/Banach - 1922 - Sur les opérations dans les ensembles abstraits et leur application aux équations intégrales.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.impan.pl/get/doi/10.4064/fm-3-1-133-181
+      \endverb
+      \verb{url}
+      \verb http://www.impan.pl/get/doi/10.4064/fm-3-1-133-181
+      \endverb
+    \endentry
+    \entry{dirac_discussion_1934}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81a54cc24a20dffceb9c538a6df77483}{%
+           family={Dirac},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi A.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{fullhash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{bibnamehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{authorbibnamehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{authornamehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{authorfullhash}{81a54cc24a20dffceb9c538a6df77483}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Proceedings of the Cambridge Philosophical Society}
+      \field{number}{2}
+      \field{title}{Discussion of the infinite distribution of electrons in the theory of the positron}
+      \field{volume}{30}
+      \field{year}{1934}
+      \field{pages}{150\bibrangedash 163}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1017/S030500410001656X
+      \endverb
+    \endentry
+    \entry{fedotov_advances_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=425773f1bf320bdb86e16bba9aed5991}{%
+           family={Fedotov},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59e770fb8faef14755980b5d34f29e35}{%
+           family={Ilderton},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9adaacaf0bcf8733d3c78aa5e518be8e}{%
+           family={Karbstein},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c0d237a571a3bd5cd5865593eacfa9c1}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9ff36ff3baa0ea77ea7f30abfa3f1d1d}{%
+           family={Seipt},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e3f6a9bfbff98ab5031a6e08ee75fb56}{%
+           family={Taya},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6ea64f5c3ebb29b33853108accee6c53}{%
+           family={Torgrimsson},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a808e07c5dd0d6c276b1d5031352972c}
+      \strng{fullhash}{9c5e1d304ac4eed5a125f17bef8d5e35}
+      \strng{bibnamehash}{a808e07c5dd0d6c276b1d5031352972c}
+      \strng{authorbibnamehash}{a808e07c5dd0d6c276b1d5031352972c}
+      \strng{authornamehash}{a808e07c5dd0d6c276b1d5031352972c}
+      \strng{authorfullhash}{9c5e1d304ac4eed5a125f17bef8d5e35}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Upcoming and planned experiments combining increasingly intense lasers and energetic particle beams will access new regimes of nonlinear, relativistic, quantum eﬀects. This improved experimental capability has driven substantial progress in QED in intense background ﬁelds. We review here the advances made during the last decade, with a focus on theory and phenomenology. As ever higher intensities are reached, it becomes necessary to consider processes at higher orders in both the number of scattered particles and the number of loops, and to account for non-perturbative physics (e.g. the Schwinger eﬀect), with extreme intensities requiring resummation of the loop expansion. In addition to increased intensity, experiments will reach higher accuracy, and these improvements are being matched by developments in theory such as in approximation frameworks, the description of ﬁnite-size eﬀects, and the range of physical phenomena analysed. Topics on which there has been substantial progress include: radiation reaction, spin and polarisation, nonlinear quantum vacuum eﬀects and connections to other ﬁelds including physics beyond the Standard Model.}
+      \field{annotation}{Comment: Review article: 175 pages, 38 figures. To appear in Physics Reports}
+      \field{issn}{03701573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{4}
+      \field{note}{arXiv:2203.00019 [hep-ph]}
+      \field{title}{Advances in {QED} with intense background fields}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{1010}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 138}
+      \range{pages}{138}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2023.01.003
+      \endverb
+      \verb{file}
+      \verb PDF:/home/santi/Zotero/storage/RMY7FKNH/Fedotov et al. - 2023 - Advances in QED with intense background fields.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2203.00019
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2203.00019
+      \endverb
+      \keyw{High Energy Physics - Phenomenology,High Energy Physics - Theory,Physics - Plasma Physics}
+    \endentry
+    \entry{fewster_necessity_2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4d248c3446a22b48068f9718bfb89766}{%
+           family={Fewster},
+           familyi={F\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fabe445ea043cc87cdde933d33ee4aac}{%
+           family={Verch},
+           familyi={V\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{57dad10ec75cb31f20f7d9c3bb0b493e}
+      \strng{fullhash}{57dad10ec75cb31f20f7d9c3bb0b493e}
+      \strng{bibnamehash}{57dad10ec75cb31f20f7d9c3bb0b493e}
+      \strng{authorbibnamehash}{57dad10ec75cb31f20f7d9c3bb0b493e}
+      \strng{authornamehash}{57dad10ec75cb31f20f7d9c3bb0b493e}
+      \strng{authorfullhash}{57dad10ec75cb31f20f7d9c3bb0b493e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Class. Quant. Grav.}
+      \field{note}{\_eprint: 1307.5242}
+      \field{title}{The {Necessity} of the {Hadamard} {Condition}}
+      \field{volume}{30}
+      \field{year}{2013}
+      \field{pages}{235027}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0264-9381/30/23/235027
+      \endverb
+    \endentry
+    \entry{gottschalk_cosmological_2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f0f5729d3d03c9f895107abdc8ba96d7}{%
+           family={Gottschalk},
+           familyi={G\bibinitperiod},
+           given={Hanno},
+           giveni={H\bibinitperiod}}}%
+        {{hash=96e5f14bd20dc7f446d236db29196164}{%
+           family={Rothe},
+           familyi={R\bibinitperiod},
+           given={Nicolai},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b584247ce2ef23f08cde9023e77d1e65}{%
+           family={Siemssen},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{28acdb9fa277f416304536d4e37af271}
+      \strng{fullhash}{28acdb9fa277f416304536d4e37af271}
+      \strng{bibnamehash}{28acdb9fa277f416304536d4e37af271}
+      \strng{authorbibnamehash}{28acdb9fa277f416304536d4e37af271}
+      \strng{authornamehash}{28acdb9fa277f416304536d4e37af271}
+      \strng{authorfullhash}{28acdb9fa277f416304536d4e37af271}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Exponentially expanding space-times play a central role in contemporary cosmology, most importantly in the theory of inflation and in the Dark Energy driven expansion in the late universe. In this work, we give a complete list of de Sitter solutions of the semiclassical Einstein equation (SCE), where classical gravity is coupled to the expected value of a renormalized stress-energy tensor of a free quantum field in the Bunch-Davies state. To achieve this, we explicitly determine the stress-energy tensor associated with the Bunch-Davies state using the recently proposed `moment approach' on the cosmological coordinate patch of de Sitter space. From the energy component of the SCE we thus obtain an analytic consistency equation for the model's parameters which has to be fulfilled by solutions to the SCE. Using this equation we then investigate the number of solutions and the structure of the solution set in dependency on the coupling parameter of the quantum field to the scalar curvature and renormalization constants using analytic arguments in combination with numerical evidence. We also identify parameter sets where multiple expansion rates separated by several orders of magnitude are possible. Potentially for such parameter settings, a fast (semi-stable) expansion in the early universe could be compatible with a late time `Dark Energy-like' behavior of the universe.}
+      \field{annotation}{Comment: 82 pages, 12 figures, 2 tables}
+      \field{issn}{1424-0637, 1424-0661}
+      \field{journaltitle}{Annales Henri Poincaré}
+      \field{month}{9}
+      \field{note}{arXiv:2206.07774 [gr-qc]}
+      \field{number}{9}
+      \field{title}{Cosmological de {Sitter} {Solutions} of the {Semiclassical} {Einstein} {Equation}}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{24}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{2949\bibrangedash 3029}
+      \range{pages}{81}
+      \verb{doi}
+      \verb 10.1007/s00023-023-01315-z
+      \endverb
+      \verb{file}
+      \verb PDF:/home/santi/Zotero/storage/4ZIDEQFF/Gottschalk et al. - 2023 - Cosmological de Sitter Solutions of the Semiclassical Einstein Equation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2206.07774
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2206.07774
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology}
+    \endentry
+    \entry{heisenberg_consequences_1936}{article}{}
+      \name{author}{2}{}{%
+        {{hash=32091bdebafd534f4c26640c3b776276}{%
+           family={Heisenberg},
+           familyi={H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f619bbfca269049da5b300f4dd6acb5c}{%
+           family={Euler},
+           familyi={E\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc2c1f9151c374ea01f555ecc74605e6}
+      \strng{fullhash}{fc2c1f9151c374ea01f555ecc74605e6}
+      \strng{bibnamehash}{fc2c1f9151c374ea01f555ecc74605e6}
+      \strng{authorbibnamehash}{fc2c1f9151c374ea01f555ecc74605e6}
+      \strng{authornamehash}{fc2c1f9151c374ea01f555ecc74605e6}
+      \strng{authorfullhash}{fc2c1f9151c374ea01f555ecc74605e6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Z. Phys.}
+      \field{note}{\_eprint: physics/0605038}
+      \field{number}{11-12}
+      \field{title}{Consequences of {Dirac}'s theory of positrons}
+      \field{volume}{98}
+      \field{year}{1936}
+      \field{pages}{714\bibrangedash 732}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/BF01343663
+      \endverb
+    \endentry
+    \entry{hollands_local_2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=31d2a3b634626584333911086e1cac53}{%
+           family={Hollands},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4517cb47549e9e42f6bfd204ca9456a7}{%
+           family={Wald},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{fullhash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{bibnamehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{authorbibnamehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{authornamehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{authorfullhash}{c374d7b9cdca0bb0052cac053903c275}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to have well defined rules for the perturbative calculation of quantities of interest in an interacting quantum field theory in curved spacetime, it is necessary to construct Wick polynomials and their time ordered products for the noninteracting theory. A construction of these quantities has recently been given by Brunetti, Fredenhagen, and Kohler, and by Brunetti and Fredenhagen, but they did not impose any ``locality'' or ``covariance'' condition in their constructions. As a consequence, their construction of time ordered products contained ambiguities involving arbitrary functions of spacetime point rather than arbitrary parameters. In this paper, we construct an ``extended Wick polynomial algebra''-large enough to contain the Wick polynomials and their time ordered products. We then define the notion of a \{{\textbackslash}it local, covariant quantum field\}, and seek a definition of \{{\textbackslash}it local\} Wick polynomials and their time ordered products as local, covariant quantum fields. We impose scaling requirements on our local Wick polynomials and their time ordered products as well as certain additional requirements-such as commutation relations with the free field and appropriate continuity properties under variations of the spacetime metric. For a given polynomial order in powers of the field, we prove that these conditions uniquely determine the local Wick polynomials and their time ordered products up to a finite number of parameters. (These parameters correspond to the usual renormalization ambiguities occurring in Minkowski spacetime together with additional parameters corresponding to the coupling of the field to curvature.) We also prove existence of local Wick polynomials. However, the issue of existence of local time ordered products is deferred to a future investigation}
+      \field{annotation}{Comment: 45 pages; no figures; latex file}
+      \field{issn}{0010-3616, 1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{10}
+      \field{note}{arXiv:gr-qc/0103074}
+      \field{number}{2}
+      \field{title}{Local {Wick} {Polynomials} and {Time} {Ordered} {Products} of {Quantum} {Fields} in {Curved} {Spacetime}}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{223}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{289\bibrangedash 326}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1007/s002200100540
+      \endverb
+      \verb{file}
+      \verb PDF:/home/santi/Zotero/storage/VXYNGTRL/Hollands and Wald - 2001 - Local Wick Polynomials and Time Ordered Products of Quantum Fields in Curved Spacetime.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/gr-qc/0103074
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/gr-qc/0103074
+      \endverb
+      \keyw{High Energy Physics - Theory,General Relativity and Quantum Cosmology,Mathematical Physics}
+    \endentry
+    \entry{hollands_quantum_2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=31d2a3b634626584333911086e1cac53}{%
+           family={Hollands},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4517cb47549e9e42f6bfd204ca9456a7}{%
+           family={Wald},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{fullhash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{bibnamehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{authorbibnamehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{authornamehash}{c374d7b9cdca0bb0052cac053903c275}
+      \strng{authorfullhash}{c374d7b9cdca0bb0052cac053903c275}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rept.}
+      \field{note}{\_eprint: 1401.2026}
+      \field{title}{Quantum fields in curved spacetime}
+      \field{volume}{574}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2015.02.001
+      \endverb
+    \endentry
+    \entry{lamb_fine_1947}{article}{}
+      \name{author}{2}{}{%
+        {{hash=78220cd6f3749f98c3e17776f744cc57}{%
+           family={Lamb},
+           familyi={L\bibinitperiod},
+           given={Willis\bibnamedelima E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0f7f71f1197ec6845910cc9bbee54e5d}{%
+           family={Retherford},
+           familyi={R\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fd28736438b8bba77463b0e8d9abceb}
+      \strng{fullhash}{8fd28736438b8bba77463b0e8d9abceb}
+      \strng{bibnamehash}{8fd28736438b8bba77463b0e8d9abceb}
+      \strng{authorbibnamehash}{8fd28736438b8bba77463b0e8d9abceb}
+      \strng{authornamehash}{8fd28736438b8bba77463b0e8d9abceb}
+      \strng{authorfullhash}{8fd28736438b8bba77463b0e8d9abceb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Fine {Structure} of the {Hydrogen} {Atom} by a {Microwave} {Method}}
+      \field{volume}{72}
+      \field{year}{1947}
+      \field{pages}{241\bibrangedash 243}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRev.72.241
+      \endverb
+    \endentry
+    \entry{mohr_qed_1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=70ffad8a9850472813ebca8d8d1f2f69}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8eb52d0445585474fdf09b375a07a85e}{%
+           family={Plunien},
+           familyi={P\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a23b416554b026321467807133ab815e}{%
+           family={Soff},
+           familyi={S\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c2758ff5d700341e5be3984528b0094}
+      \strng{fullhash}{8c2758ff5d700341e5be3984528b0094}
+      \strng{bibnamehash}{8c2758ff5d700341e5be3984528b0094}
+      \strng{authorbibnamehash}{8c2758ff5d700341e5be3984528b0094}
+      \strng{authornamehash}{8c2758ff5d700341e5be3984528b0094}
+      \strng{authorfullhash}{8c2758ff5d700341e5be3984528b0094}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rept.}
+      \field{number}{5-6}
+      \field{title}{{QED} corrections in heavy atoms}
+      \field{volume}{293}
+      \field{year}{1998}
+      \field{pages}{227\bibrangedash 369}
+      \range{pages}{143}
+      \verb{doi}
+      \verb 10.1016/s0370-1573(97)00046-x
+      \endverb
+    \endentry
+    \entry{schanderBackreactionCosmology2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18d6bdb099192d9cbf6e8ad14ece840a}{%
+           family={Schander},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e2500e447e52b94fac488fed039609c2}{%
+           family={Thiemann},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{47e6019152c4d5270d58536fd92e82ab}
+      \strng{fullhash}{47e6019152c4d5270d58536fd92e82ab}
+      \strng{bibnamehash}{47e6019152c4d5270d58536fd92e82ab}
+      \strng{authorbibnamehash}{47e6019152c4d5270d58536fd92e82ab}
+      \strng{authornamehash}{47e6019152c4d5270d58536fd92e82ab}
+      \strng{authorfullhash}{47e6019152c4d5270d58536fd92e82ab}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this review, we investigate the question of backreaction in different approaches to cosmological perturbation theory, and with a special focus on quantum theoretical aspects. By backreaction, we refer here to the effects of matter field or cosmological inhomogeneities on the homogeneous dynamical background degrees of freedom of cosmology. We begin with an overview of classical cosmological backreaction which is ideally suited for physical situations in the late time Universe. We then proceed backwards in time, considering semiclassical approaches such as semiclassical or stochastic (semiclassical) gravity which take quantum effects of the perturbations into account. Finally, we review approaches to backreaction in quantum cosmology that should apply to the very early Universe where classical and semiclassical approximations break down. The main focus is on a recently proposed implementation of backreaction in quantum cosmology using a Born--Oppenheimer inspired method.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2296-987X}
+      \field{journaltitle}{Frontiers in Astronomy and Space Sciences}
+      \field{month}{7}
+      \field{title}{Backreaction in {{Cosmology}}}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{692198}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fspas.2021.692198
+      \endverb
+      \verb{eprint}
+      \verb 2106.06043
+      \endverb
+      \verb{file}
+      \verb /home/investigator/Zotero/storage/PGEEW49Q/Schander and Thiemann - 2021 - Backreaction in Cosmology.pdf
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology,High Energy Physics - Theory,Mathematical Physics,Quantum Physics}
+    \endentry
+    \entry{schlemmer_current_2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0e2ff2346a9e317452f9eff71a3869eb}{%
+           family={Schlemmer},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f4e464e1acf2ad93ab05792da7d88e09}{%
+           family={Zahn},
+           familyi={Z\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab57311ac873350c0ae12d174d02851a}
+      \strng{fullhash}{ab57311ac873350c0ae12d174d02851a}
+      \strng{bibnamehash}{ab57311ac873350c0ae12d174d02851a}
+      \strng{authorbibnamehash}{ab57311ac873350c0ae12d174d02851a}
+      \strng{authornamehash}{ab57311ac873350c0ae12d174d02851a}
+      \strng{authorfullhash}{ab57311ac873350c0ae12d174d02851a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals Phys.}
+      \field{note}{\_eprint: 1501.05912}
+      \field{title}{The current density in quantum electrodynamics in external potentials}
+      \field{volume}{359}
+      \field{year}{2015}
+      \field{pages}{31\bibrangedash 45}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.aop.2015.04.006
+      \endverb
+    \endentry
+    \entry{schwinger_gauge_1951}{article}{}
+      \name{author}{1}{}{%
+        {{hash=58ec47507ae88e7af6a33e2a67b59e70}{%
+           family={Schwinger},
+           familyi={S\bibinitperiod},
+           given={Julian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e58b29276e78f43797abebce432eec14}{%
+           family={Milton},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{fullhash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{bibnamehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{authorbibnamehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{authornamehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{authorfullhash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{editorbibnamehash}{e58b29276e78f43797abebce432eec14}
+      \strng{editornamehash}{e58b29276e78f43797abebce432eec14}
+      \strng{editorfullhash}{e58b29276e78f43797abebce432eec14}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{On gauge invariance and vacuum polarization}
+      \field{volume}{82}
+      \field{year}{1951}
+      \field{pages}{664\bibrangedash 679}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1103/PhysRev.82.664
+      \endverb
+    \endentry
+    \entry{uehling_polarization_1935}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c92340b157256cb60b92b5848378abab}{%
+           family={Uehling},
+           familyi={U\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c92340b157256cb60b92b5848378abab}
+      \strng{fullhash}{c92340b157256cb60b92b5848378abab}
+      \strng{bibnamehash}{c92340b157256cb60b92b5848378abab}
+      \strng{authorbibnamehash}{c92340b157256cb60b92b5848378abab}
+      \strng{authornamehash}{c92340b157256cb60b92b5848378abab}
+      \strng{authorfullhash}{c92340b157256cb60b92b5848378abab}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Polarization effects in the positron theory}
+      \field{volume}{48}
+      \field{year}{1935}
+      \field{pages}{55\bibrangedash 63}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1103/PhysRev.48.55
+      \endverb
+    \endentry
+    \entry{wernersson_vacuum_2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f11238b8ccb4053b9b53fda03a678d17}{%
+           family={Wernersson},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f4e464e1acf2ad93ab05792da7d88e09}{%
+           family={Zahn},
+           familyi={Z\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1538210d7f06cbfdb89acf6539743373}
+      \strng{fullhash}{1538210d7f06cbfdb89acf6539743373}
+      \strng{bibnamehash}{1538210d7f06cbfdb89acf6539743373}
+      \strng{authorbibnamehash}{1538210d7f06cbfdb89acf6539743373}
+      \strng{authornamehash}{1538210d7f06cbfdb89acf6539743373}
+      \strng{authorfullhash}{1538210d7f06cbfdb89acf6539743373}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{note}{\_eprint: 2010.05499}
+      \field{number}{1}
+      \field{title}{Vacuum polarization near boundaries}
+      \field{volume}{103}
+      \field{year}{2021}
+      \field{pages}{016012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.103.016012
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Dirac(1934)]{dirac_discussion_1934}
-P.~A.~M. Dirac.
-\newblock Discussion of the infinite distribution of electrons in the theory of
-  the positron.
-\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
-  Society}, 30\penalty0 (2):\penalty0 150--163, 1934.
-\newblock \doi{10.1017/S030500410001656X}.
-
-\bibitem[Fedotov et~al.(2023)Fedotov, Ilderton, Karbstein, King, Seipt, Taya,
-  and Torgrimsson]{fedotov_advances_2023}
-A.~Fedotov, A.~Ilderton, F.~Karbstein, B.~King, D.~Seipt, H.~Taya, and
-  G.~Torgrimsson.
-\newblock Advances in {QED} with intense background fields.
-\newblock \emph{Physics Reports}, 1010:\penalty0 1--138, Apr. 2023.
-\newblock ISSN 03701573.
-\newblock \doi{10.1016/j.physrep.2023.01.003}.
-\newblock URL \url{http://arxiv.org/abs/2203.00019}.
-\newblock arXiv:2203.00019 [hep-ph].
-
-\bibitem[Fewster and Verch(2013)]{fewster_necessity_2013}
-C.~J. Fewster and R.~Verch.
-\newblock The {Necessity} of the {Hadamard} {Condition}.
-\newblock \emph{Class. Quant. Grav.}, 30:\penalty0 235027, 2013.
-\newblock \doi{10.1088/0264-9381/30/23/235027}.
-\newblock \_eprint: 1307.5242.
-
-\bibitem[Heisenberg and Euler(1936)]{heisenberg_consequences_1936}
-W.~Heisenberg and H.~Euler.
-\newblock Consequences of {Dirac}'s theory of positrons.
-\newblock \emph{Z. Phys.}, 98\penalty0 (11-12):\penalty0 714--732, 1936.
-\newblock \doi{10.1007/BF01343663}.
-\newblock \_eprint: physics/0605038.
-
-\bibitem[Hollands and Wald(2001)]{hollands_local_2001}
-S.~Hollands and R.~M. Wald.
-\newblock Local {Wick} {Polynomials} and {Time} {Ordered} {Products} of
-  {Quantum} {Fields} in {Curved} {Spacetime}.
-\newblock \emph{Communications in Mathematical Physics}, 223\penalty0
-  (2):\penalty0 289--326, Oct. 2001.
-\newblock ISSN 0010-3616, 1432-0916.
-\newblock \doi{10.1007/s002200100540}.
-\newblock URL \url{http://arxiv.org/abs/gr-qc/0103074}.
-\newblock arXiv:gr-qc/0103074.
-
-\bibitem[Hollands and Wald(2015)]{hollands_quantum_2015}
-S.~Hollands and R.~M. Wald.
-\newblock Quantum fields in curved spacetime.
-\newblock \emph{Phys. Rept.}, 574:\penalty0 1--35, 2015.
-\newblock \doi{10.1016/j.physrep.2015.02.001}.
-\newblock \_eprint: 1401.2026.
-
-\bibitem[Lamb and Retherford(1947)]{lamb_fine_1947}
-W.~E. Lamb and R.~C. Retherford.
-\newblock Fine {Structure} of the {Hydrogen} {Atom} by a {Microwave} {Method}.
-\newblock \emph{Phys. Rev.}, 72:\penalty0 241--243, 1947.
-\newblock \doi{10.1103/PhysRev.72.241}.
-
-\bibitem[Mohr et~al.(1998)Mohr, Plunien, and Soff]{mohr_qed_1998}
-P.~J. Mohr, G.~Plunien, and G.~Soff.
-\newblock {QED} corrections in heavy atoms.
-\newblock \emph{Phys. Rept.}, 293\penalty0 (5-6):\penalty0 227--369, 1998.
-\newblock \doi{10.1016/s0370-1573(97)00046-x}.
-
-\bibitem[Schlemmer and Zahn(2015)]{schlemmer_current_2015}
-J.~Schlemmer and J.~Zahn.
-\newblock The current density in quantum electrodynamics in external
-  potentials.
-\newblock \emph{Annals Phys.}, 359:\penalty0 31--45, 2015.
-\newblock \doi{10.1016/j.aop.2015.04.006}.
-\newblock \_eprint: 1501.05912.
-
-\bibitem[Schwinger(1951)]{schwinger_gauge_1951}
-J.~S. Schwinger.
-\newblock On gauge invariance and vacuum polarization.
-\newblock \emph{Phys. Rev.}, 82:\penalty0 664--679, 1951.
-\newblock \doi{10.1103/PhysRev.82.664}.
-
-\bibitem[Thompson and Winstanley(2024)]{thompson_quantum-corrected_2024}
-J.~C. Thompson and E.~Winstanley.
-\newblock Quantum-corrected anti–de {Sitter} spacetime.
-\newblock \emph{Physical Review D}, 110\penalty0 (12):\penalty0 125003, Dec.
-  2024.
-\newblock ISSN 2470-0010, 2470-0029.
-\newblock \doi{10.1103/PhysRevD.110.125003}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.110.125003}.
-
-\bibitem[Uehling(1935)]{uehling_polarization_1935}
-E.~A. Uehling.
-\newblock Polarization effects in the positron theory.
-\newblock \emph{Phys. Rev.}, 48:\penalty0 55--63, 1935.
-\newblock \doi{10.1103/PhysRev.48.55}.
-
-\bibitem[Wernersson and Zahn(2021)]{wernersson_vacuum_2021}
-J.~Wernersson and J.~Zahn.
-\newblock Vacuum polarization near boundaries.
-\newblock \emph{Phys. Rev. D}, 103\penalty0 (1):\penalty0 016012, 2021.
-\newblock \doi{10.1103/PhysRevD.103.016012}.
-\newblock \_eprint: 2010.05499.
-
-\end{thebibliography}

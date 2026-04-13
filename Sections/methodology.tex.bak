@@ -66,7 +66,7 @@ The following dimensionless parameters are defined
 z &= a^{-1}x^1\\
 \lambda &= e E a^2\\
 \varepsilon &= ae\\
-\omega_{n} &= a\Omega_{n}
+\omega_{n} &= a\Omega_{n, \alpha}
 \end{align}
 \end{subequations}
 Eq.~\eqref{eq:TIKGE} then takes the form \begin{align}
@@ -93,7 +93,7 @@ $
     [a_n, a_m^\dagger ] = [b_n, b_m^\dagger ] =\delta_{nm},
 $
 and all other commutators vanishing. The ladder operators define
-the vacuum state $\ket{0}$ as that for which $a_n \ket{0} = b_n\ket{0} = 0$. Note that due to the chosen gauge, $\omega_n = -\omega_{-n},$ and $b_n^\dagger$  is the creation operator of the $n$-th negative frequency mode. 
+the vacuum state $\ket{0}$ as that for which $a_n \ket{0} = b_n\ket{0} = 0$. Note that due to the chosen gauge, $\omega_n = -\omega_{-n},$ and the $b_n^\dagger$  are the creation operators of the negative frequency family of solutions. 
 
 \subsection{Vacuum Polarization}
 \label{sec:vacuum-polarization}
@@ -240,7 +240,7 @@ to define the vacuum polarization
 \end{align}
 where the superscript MS is introduced to differentiate it from the correct prescription $\rho$.
 % The above expression cannot be obtained from a manifestly gauge invariant renormalization scheme, and also relies on a specific pairing of the modes in the series to be convergent. 
-The above expression cannot be derived from a manifestly gauge invariant renormalization scheme and relies on the specific pairing of modes to be well-defined. 
+The above expression cannot be derived from a manifestly gauge invariant renormalization scheme, and it relies on the specific pairing of modes to be well-defined. 
 Furthermore, in the iterative procedure discussed above,~\cite{ambjorn_properties_1983} truncates the mode sum to $\rho^\text{MS} \approx \rho^\text{MS}_1$. 
 
 Fig.~\ref{fig:hambjorn} shows different charge densities arising from the different $\rho$ prescriptions, for the massless scalar field subject to DBC. The same $\phi_n$, $\omega_n$ and \linebreak$A_0(z) = -(z-\frac{1}{2})$, the external field approximation with $\lambda=1$, have been used for the different $\rho$. In blue, the vacuum polarization used in the computations throughout this paper, in orange the vacuum polarization arising from the mode pairing and in red the one used for the iterative procedure in \cite{ambjorn_properties_1983}. 

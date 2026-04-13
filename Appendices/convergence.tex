@@ -2,7 +2,7 @@
 \label{sec:convergence}
 
 
-\begin{figure}
+\begin{figure}[t]
     \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf}
@@ -18,14 +18,12 @@
 The iterative procedure either
     converges,
     oscillates, or
-    the appearance of complex $\omega$ cuts the sequence short.
+    breaks down. 
     
-A case where the sequence convergences, and oscillates is displayed in Fig.~\ref{fig:convergence}  in the top,  and bottom panel, respectively. We measure convergence in the frequency of the lowest mode $\omega_\lambda^\kappa$.
-These convergence cases can be understood from the perspective of fixed-point theory. For brevity, we invite the reader to find the fixed points of the $\mathbb{R}\rightarrow \mathbb{R}$ functions $\frac{3}{4}-\frac{x}{2}, 1-x$ to see how the slope of the function affects convergence. The parameter $c$ in Eq.~\eqref{eq:A0-general-iterative} allows us to control this slope in order to ensure convergence.
+The convergence of the iterative procedure described in Sec.~\ref{sec:The-iterative-procedure} is measured through the sequence $\{\omega_{1, \lambda}^\kappa\}_{\kappa>0}$. Examples of a converging sequence and an oscillating (non‑convergent) sequence are displayed in the top and bottom panels of Fig.~\ref{fig:convergence}, respectively. These cases can be understood from the perspective of fixed‑point theory, where we explicitly see whether the update function $f_{\lambda,c}$ is a contraction (top panel) or not (bottom panel).  We conjecture that one can always find a small enough $c$ such that the map $f_{\lambda,c   }$ is contracting.
 
-
-Complex $\omega$ might appear if the candidate $\lambda +\Delta \lambda $ in the numerical continuation method is too far away from $\lambda$. The screening due to $\rho_\lambda$  is ``too weak'' compared to $A_{0, \lambda+\Delta \lambda}^1$, which makes the system effectively behave as in the external field approximation with $\lambda>\lambda_c$.
-
+The iterative procedure breaks down when complex $\omega$ appear. This happens if the candidate $\lambda +\Delta \lambda $ in the numerical continuation method is too far away from $\lambda$: the screening due to $\rho_\lambda$  is too weak compared to $A_{0, \lambda+\Delta \lambda}^1$, and the system effectively behaves as in the external field approximation with $\lambda>\lambda_c$.
+The step $\Delta \lambda$ is reduced and the iterative procedure is tried again. 
 
 % \begin{subfigure}{0.5\textwidth}
 %     \centering

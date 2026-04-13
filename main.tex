@@ -8,11 +8,12 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
+\usepackage{authblk}
 \usepackage{braket}
 \usepackage[english]{babel}
-\usepackage{natbib}
-\setcitestyle{numbers}
-\setcitestyle{square}
+\usepackage{biblatex}
+\addbibresource{main.bib}
+% \addbibresource{/home/investigator/PhD/Journal/Bibliography/bib.bib}
 \usepackage{hyperref}
 \usepackage{xcolor}
 
@@ -23,17 +24,25 @@
 
 \newcommand{\marginnote}[1]{\textsuperscript{*}\marginpar{\fbox{\parbox{2cm}{\textcolor{blue}{#1}}}}}
 
-
 \title{Revisiting semiclassical scalar QED in 1+1 dimensions }
-\author{Authors}
+\author[1]{S. Sanz-Wuhl}
+\author[2]{J. Zahn}
+\affil[1]{DIPC\textemdash Donostia International Physics Center, Paseo Manuel de Lardizabal 4, 20018 Donostia-San Sebastián, Spain}
+\affil[2]{Institut für Theoretische Physik, Universität Leipzig, Brüderstraße 16, 04103 Leipzig, Germany}
+% \email{santiago.sanz@dipc.org}
 
+\date{}                     %% if you don't need date to appear
+\setcounter{Maxaffil}{0}
+\renewcommand\Affilfont{\itshape\small}
 
 \begin{document}
 \makeatletter
 \maketitle
 
 \begin{abstract}
-In this article we study the backreaction of a charged quantum scalar field on a background classical constant electric field in a finite one-dimensional region, with attention to boundary effects. We review previous work in this setup \cite{ambjorn_properties_1983}, where it was found that vacuum polarization averts instabilities due to runaway solutions. Their prescription for computing the vacuum polarization was later pointed out to be incorrect \cite{schlemmer_current_2015}, and a correct, gauge-invariant definition using Hadamard point-splitting was introduced \cite{wernersson_vacuum_2021}, yielding a vacuum polarization an order of magnitude weaker. Applying this correct prescription through an iterative procedure across varying boundary conditions and masses, we find that the system remains stable despite the weaker vacuum polarization. Interestingly, the numerical discrepancies between the two prescriptions do not extend to the strong-field regime, where their behavior is remarkably similar; we attribute this to the dominant low-energy modes being the most sensitive to the background field.
+We study the backreaction of a charged quantum scalar field in the presence of two opposite charges placed at the boundaries of a finite one-dimensional region, with attention to boundary effects. We review previous work by Ambjørn \& Wolfram \cite{ambjorn_properties_1983} which finds, in this setup,  that vacuum polarization averts instabilities. 
+As it was later pointed out, \cite{ambjorn_properties_1983} used a wrong prescription for computing the vacuum polarization \cite{schlemmer_current_2015}. The correct prescription presents notable discrepancies with the one previously used \cite{wernersson_vacuum_2021}. 
+We find that using the correct prescription the system remains stable despite these discrepancies. To this end, an iterative procedure is introduced to study the system under varying mass and boundary conditions configurations.
 \end{abstract}
 
 \tableofcontents
@@ -48,7 +57,18 @@ In this article we study the backreaction of a charged quantum scalar field on a
 \input{Appendices/mode-sum-formula.tex}
 %\input{Appendices/vacuum-polarization.tex}
 \input{Appendices/convergence.tex}
-\bibliographystyle{abbrvnat}
-\bibliography{main}
+
+\section*{Acknowledgements}
+S.S. acknowledges funding by the Department of Education of the Basque
+Government through the IKUR Strategy, through BasQ
+(project EMISGALA), and through PIBA\_2023\_1\_0021
+(TENINT), as well as by the Agencia Estatal de
+Investigación (AEI) through Proyectos de Generación de
+Conocimiento PID2022-142308NA-I00 (EXQUSMI), and
+that this work has been produced with the support of a 2023
+Leonardo Grant for Researchers in Physics, BBVA
+Foundation.
+\printbibliography{}
+
 
 \end{document}
