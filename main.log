@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.20)  13 APR 2026 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.20)  13 APR 2026 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -714,24 +714,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -802,9 +802,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 38.
-Package biblatex Info: Reference segment=0 on input line 38.
-Package hyperref Info: Link coloring OFF on input line 38.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
+Package hyperref Info: Link coloring OFF on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -814,9 +814,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count451
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -833,9 +833,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `main.toc'.
 
  (./Sections/introduction.tex
-Underfull \vbox (badness 1158) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1881) in paragraph at lines 8--9
 []\OT1/cmr/m/n/10 Defining vac-uum po-lar-iza-tion for generic back-
  []
@@ -856,12 +853,12 @@ Underfull \hbox (badness 1496) in paragraph at lines 159--161
  []
 
 [3]
-<Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf, id=177, 247.01117pt x 179.97006pt>
+<Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf, id=180, 247.01117pt x 179.97006pt>
 File: Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf Graphic file (type pdf)
 <use Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf>
 Package pdftex.def Info: Figures/dirichlet/eigenvaluesExternalFieldApproximation.pdf  used on input line 180.
 (pdftex.def)             Requested size: 217.6621pt x 158.59108pt.
-<Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf, id=178, 247.01117pt x 180.51509pt>
+<Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf, id=181, 247.01117pt x 180.51509pt>
 File: Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf Graphic file (type pdf)
 <use Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf>
 Package pdftex.def Info: Figures/dirichlet/inducedChargeExternalFieldApproximation.pdf  used on input line 188.
@@ -874,7 +871,7 @@ Underfull \hbox (badness 2393) in paragraph at lines 246--248
 []\OT1/cmr/m/n/10 Fig. []3[] shows dif-fer-ent charge den-si-ties aris-ing
  []
 
-<Figures/dirichlet/hambjorn.pdf, id=236, 256.938pt x 199.24507pt>
+<Figures/dirichlet/hambjorn.pdf, id=239, 256.938pt x 199.24507pt>
 File: Figures/dirichlet/hambjorn.pdf Graphic file (type pdf)
 <use Figures/dirichlet/hambjorn.pdf>
 Package pdftex.def Info: Figures/dirichlet/hambjorn.pdf  used on input line 252.
@@ -898,7 +895,7 @@ Underfull \hbox (badness 2980) in paragraph at lines 60--63
  []
 
 ) (./Sections/results.tex
-<Figures/dirichlet/eigenvalues.pdf, id=282, 274.98734pt x 202.71736pt>
+<Figures/dirichlet/eigenvalues.pdf, id=285, 274.98734pt x 202.71736pt>
 File: Figures/dirichlet/eigenvalues.pdf Graphic file (type pdf)
 <use Figures/dirichlet/eigenvalues.pdf>
 Package pdftex.def Info: Figures/dirichlet/eigenvalues.pdf  used on input line 9.
@@ -908,12 +905,12 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 8--11
  []$[]$ 
  []
 
-<Figures/dirichlet/inducedCharge.pdf, id=283, 274.98734pt x 202.71736pt>
+<Figures/dirichlet/inducedCharge.pdf, id=286, 274.98734pt x 202.71736pt>
 File: Figures/dirichlet/inducedCharge.pdf Graphic file (type pdf)
 <use Figures/dirichlet/inducedCharge.pdf>
 Package pdftex.def Info: Figures/dirichlet/inducedCharge.pdf  used on input line 13.
 (pdftex.def)             Requested size: 241.84842pt x 178.28665pt.
-<Figures/dirichlet/electricFieldInduced.pdf, id=284, 274.98734pt x 202.71736pt>
+<Figures/dirichlet/electricFieldInduced.pdf, id=287, 274.98734pt x 202.71736pt>
 File: Figures/dirichlet/electricFieldInduced.pdf Graphic file (type pdf)
 <use Figures/dirichlet/electricFieldInduced.pdf>
 Package pdftex.def Info: Figures/dirichlet/electricFieldInduced.pdf  used on input line 16.
@@ -931,17 +928,17 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 12--20
 
 LaTeX Warning: Float too large for page by 98.38339pt on input line 22.
 
-<Figures/neumann/eigenvalues.pdf, id=285, 274.98734pt x 202.71736pt>
+<Figures/neumann/eigenvalues.pdf, id=288, 274.98734pt x 202.71736pt>
 File: Figures/neumann/eigenvalues.pdf Graphic file (type pdf)
 <use Figures/neumann/eigenvalues.pdf>
 Package pdftex.def Info: Figures/neumann/eigenvalues.pdf  used on input line 27.
 (pdftex.def)             Requested size: 241.84842pt x 178.28665pt.
-<Figures/neumann/inducedCharge.pdf, id=286, 274.98734pt x 202.71736pt>
+<Figures/neumann/inducedCharge.pdf, id=289, 274.98734pt x 202.71736pt>
 File: Figures/neumann/inducedCharge.pdf Graphic file (type pdf)
 <use Figures/neumann/inducedCharge.pdf>
 Package pdftex.def Info: Figures/neumann/inducedCharge.pdf  used on input line 30.
 (pdftex.def)             Requested size: 241.84842pt x 178.28665pt.
-<Figures/neumann/electricFieldInduced.pdf, id=287, 274.98734pt x 202.71736pt>
+<Figures/neumann/electricFieldInduced.pdf, id=290, 274.98734pt x 202.71736pt>
 File: Figures/neumann/electricFieldInduced.pdf Graphic file (type pdf)
 <use Figures/neumann/electricFieldInduced.pdf>
 Package pdftex.def Info: Figures/neumann/electricFieldInduced.pdf  used on input line 33.
@@ -965,7 +962,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 26--35
 LaTeX Warning: Float too large for page by 26.38339pt on input line 37.
 
 [6] [7 <./Figures/dirichlet/eigenvalues.pdf> <./Figures/dirichlet/inducedCharge.pdf> <./Figures/dirichlet/electricFieldInduced.pdf> <./Figures/neumann/eigenvalues.pdf> <./Figures/neumann/inducedCharge.pdf> <./Figures/neumann/electricFieldInduced.pdf>]
-<Figures/dirichlet/rhoEvolution.pdf, id=387, 274.94032pt x 202.71736pt>
+<Figures/dirichlet/rhoEvolution.pdf, id=390, 274.94032pt x 202.71736pt>
 File: Figures/dirichlet/rhoEvolution.pdf Graphic file (type pdf)
 <use Figures/dirichlet/rhoEvolution.pdf>
 Package pdftex.def Info: Figures/dirichlet/rhoEvolution.pdf  used on input line 71.
@@ -975,23 +972,23 @@ Underfull \hbox (badness 1540) in paragraph at lines 73--73
 [][]|\OT1/cmr/m/n/10 The self-consistent vac-uum po-lar-iza-tion for
  []
 
-<Figures/neumann/rhoEvolution.pdf, id=388, 274.94032pt x 202.71736pt>
+<Figures/neumann/rhoEvolution.pdf, id=391, 274.94032pt x 202.71736pt>
 File: Figures/neumann/rhoEvolution.pdf Graphic file (type pdf)
 <use Figures/neumann/rhoEvolution.pdf>
 Package pdftex.def Info: Figures/neumann/rhoEvolution.pdf  used on input line 78.
 (pdftex.def)             Requested size: 227.3381pt x 167.61815pt.
-<Figures/dirichlet/inducedChargeComparison.pdf, id=391, 274.98734pt x 202.71736pt>
+<Figures/dirichlet/inducedChargeComparison.pdf, id=394, 274.98734pt x 202.71736pt>
 File: Figures/dirichlet/inducedChargeComparison.pdf Graphic file (type pdf)
 <use Figures/dirichlet/inducedChargeComparison.pdf>
 Package pdftex.def Info: Figures/dirichlet/inducedChargeComparison.pdf  used on input line 91.
 (pdftex.def)             Requested size: 217.6621pt x 160.45737pt.
 ) (./Sections/conclusions.tex [8 <./Figures/dirichlet/rhoEvolution.pdf> <./Figures/neumann/rhoEvolution.pdf>]) (./Appendices/mode-sum-formula.tex) (./Appendices/convergence.tex
-<Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf, id=438, 248.46425pt x 185.51709pt>
+<Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf, id=441, 248.46425pt x 185.51709pt>
 File: Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf Graphic file (type pdf)
 <use Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf>
 Package pdftex.def Info: Figures/convergence/eigenvalues_lambda_16_dirichlet.pdf  used on input line 8.
 (pdftex.def)             Requested size: 217.6621pt x 162.52519pt.
-<Figures/convergence/eigenvalues_lambda_17.599999999999998_dirichlet.pdf, id=439, 248.46425pt x 185.51709pt>
+<Figures/convergence/eigenvalues_lambda_17.599999999999998_dirichlet.pdf, id=442, 248.46425pt x 185.51709pt>
 File: Figures/convergence/eigenvalues_lambda_17.599999999999998_dirichlet.pdf Graphic file (type pdf)
 <use Figures/convergence/eigenvalues_lambda_17.599999999999998_dirichlet.pdf>
 Package pdftex.def Info: Figures/convergence/eigenvalues_lambda_17.599999999999998_dirichlet.pdf  used on input line 12.
@@ -1046,18 +1043,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31040 strings out of 478287
- 593859 string characters out of 5849289
- 1283208 words of memory out of 5000000
- 48661 multiletter control sequences out of 15000+600000
- 482373 words of font info for 77 fonts, out of 8000000 for 9000
+ 31039 strings out of 478287
+ 593848 string characters out of 5849289
+ 1283372 words of memory out of 5000000
+ 48660 multiletter control sequences out of 15000+600000
+ 482194 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,18n,104p,2005b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (11 pages, 614678 bytes).
+ 100i,18n,104p,2005b,1771s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (11 pages, 621230 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 574 compressed objects within 6 object streams
+ 666 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
  89 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
